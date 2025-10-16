@@ -69,6 +69,31 @@ const App: React.FC = () => {
       .catch((err) => console.error('Error loading arena games:', err));
   }, []);
 
+  // Реакция на кнопку "Назад" в браузере
+useEffect(() => {
+  const handleBack = (event: PopStateEvent) => {
+    if (selectedGame) {
+      // Если открыта игра — просто закрываем её
+      closeDetails();
+      // Блокируем стандартный переход назад
+      event.preventDefault();
+    } else {
+      // Если игрa не открыта — перезагружаем страницу
+      // window.location.reload();
+    }
+  };
+
+  window.addEventListener('popstate', handleBack);
+
+  // При открытии игры добавляем запись в историю
+  if (selectedGame) {
+    window.history.pushState({ game: selectedGame.name }, '');
+  }
+
+  return () => window.removeEventListener('popstate', handleBack);
+}, [selectedGame]);
+
+
   const getUniqueTags = () => {
     const allTags = zonaGames.flatMap((game) => game.tags);
     return [...new Set(allTags)].sort();
