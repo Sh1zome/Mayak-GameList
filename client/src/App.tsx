@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './styles.scss';
 
-// Тип для данных игры в VR-Зона
 interface ZonaGame {
   name: string;
   russian: 'Присутствует' | 'Отсутствует' | 'Есть субтитры';
@@ -37,228 +36,246 @@ interface ArenaGame extends Omit<
 }
 
 const App: React.FC = () => {
-  const [currentSection, setCurrentSection] = useState<'zona' | 'arena' | null>(null);
+  const [currentSection, setCurrentSection] = useState<'zona' | 'arena' | 'autosim' | null>(null);
   const [zonaGames, setZonaGames] = useState<ZonaGame[]>([]);
   const [arenaGames, setArenaGames] = useState<ArenaGame[]>([]);
+  const [autoGames, setAutoGames] = useState<ZonaGame[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedGame, setSelectedGame] = useState<ZonaGame | ArenaGame | null>(null);
   const [screenshotIndex, setScreenshotIndex] = useState(0);
+  const [burgerOpen, setBurgerOpen] = useState(false);
+  const [filterOpen, setFilterOpen] = useState(false);
+  const [fade, setFade] = useState<'in' | 'out'>('in');
 
-  // Загрузка данных из API
+  // refs для слайдера превью
+  const thumbsRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
-    fetch('/api/games')
-      .then((res) => res.json())
-      .then((data: ZonaGame[]) => setZonaGames(data))
-      .catch((err) => {
-        console.error('Error loading games:', err);
-        setZonaGames([]);
-      });
+    fetch('./games.json').then(res => res.json()).then(data => setZonaGames(data.games || []));
+    fetch('./arena.json').then(res => res.json()).then(data => setArenaGames(data.games || []));
+    fetch('./autosim.json').then(res => res.json()).then(data => setAutoGames(data.games || []));
   }, []);
 
-  // Загрузка данных из JSON
+  // История назад: если открыта игра — закрываем (и не даём назад уезжать)
   useEffect(() => {
-    fetch('../games.json')
-      .then((res) => res.json())
-      .then((data) => setZonaGames(data.games || []))
-      .catch((err) => console.error('Error loading zona games:', err));
+    const handleBack = (event: PopStateEvent) => {
+      if (selectedGame) {
+        closeDetails();
+      }
+    };
+    window.addEventListener('popstate', handleBack);
+    if (selectedGame) window.history.pushState({ game: selectedGame.name }, '');
+    return () => window.removeEventListener('popstate', handleBack);
+  }, [selectedGame]);
 
-    fetch('./arena.json')
-      .then((res) => res.json())
-      .then((data) => setArenaGames(data.games || []))
-      .catch((err) => console.error('Error loading arena games:', err));
-  }, []);
-
-  // Реакция на кнопку "Назад" в браузере
-useEffect(() => {
-  const handleBack = (event: PopStateEvent) => {
-    if (selectedGame) {
-      // Если открыта игра — просто закрываем её
-      closeDetails();
-      // Блокируем стандартный переход назад
-      event.preventDefault();
-    } else {
-      // Если игрa не открыта — перезагружаем страницу
-      // window.location.reload();
-    }
+  const handleSectionChange = (section: 'zona' | 'arena' | 'autosim') => {
+    setFade('out');
+    setTimeout(() => {
+      setCurrentSection(section);
+      setSearchQuery('');
+      setSelectedTags([]);
+      setSelectedGame(null);
+      setScreenshotIndex(0);
+      setFade('in');
+      setBurgerOpen(false);
+    }, 200);
   };
 
-  window.addEventListener('popstate', handleBack);
+  const handleTagChange = (tag: string) => {
+    setSelectedTags(prev => prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]);
+  };
 
-  // При открытии игры добавляем запись в историю
-  if (selectedGame) {
-    window.history.pushState({ game: selectedGame.name }, '');
-  }
+  const closeDetails = () => {
+    setFade('out');
+    setTimeout(() => {
+      setSelectedGame(null);
+      setScreenshotIndex(0);
+      setFade('in');
+    }, 200);
+  };
 
-  return () => window.removeEventListener('popstate', handleBack);
-}, [selectedGame]);
-
-
-  const getUniqueTags = () => {
-    const allTags = zonaGames.flatMap((game) => game.tags);
+  const getUniqueTags = (games: ZonaGame[]) => {
+    const allTags = games.flatMap(g => g.tags);
     return [...new Set(allTags)].sort();
   };
 
   const filteredGames = () => {
-    let gamesList: (ZonaGame | ArenaGame)[] = currentSection === 'zona' ? zonaGames : arenaGames;
-    if (searchQuery) {
-      gamesList = gamesList.filter((game) =>
-        game.name.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    }
-    if (currentSection === 'zona' && selectedTags.length > 0) {
-      gamesList = gamesList.filter((game) =>
-        selectedTags.every((tag) => game.tags.includes(tag))
-      );
-    }
-    return gamesList;
+    let list: (ZonaGame | ArenaGame)[] =
+      currentSection === 'zona' ? zonaGames :
+      currentSection === 'arena' ? arenaGames : autoGames;
+    if (searchQuery)
+      list = list.filter(g => g.name.toLowerCase().includes(searchQuery.toLowerCase()));
+    if (selectedTags.length)
+      list = list.filter(g => selectedTags.every(tag => g.tags.includes(tag)));
+    return list;
   };
 
-  const handleTagChange = (tag: string, checked: boolean) => {
-    if (checked) setSelectedTags((prev) => [...prev, tag]);
-    else setSelectedTags((prev) => prev.filter((t) => t !== tag));
-  };
-
-  const closeDetails = () => {
-    setSelectedGame(null);
-    setScreenshotIndex(0);
-  };
-
+  // Пролистывание основного слайда / превью
   const nextScreenshot = () => {
     if (!selectedGame) return;
-    setScreenshotIndex((prev) => (prev + 1) % selectedGame.screenshots.length);
+    const total = selectedGame.screenshots.length + 1; // +1 — трейлер
+    const next = (screenshotIndex + 1) % total;
+    setScreenshotIndex(next);
+    // прокрутим превью в центр активного
+    requestAnimationFrame(() => scrollThumbIntoView(next));
   };
-
   const prevScreenshot = () => {
     if (!selectedGame) return;
-    setScreenshotIndex((prev) =>
-      prev === 0 ? selectedGame.screenshots.length - 1 : prev - 1
-    );
+    const total = selectedGame.screenshots.length + 1;
+    const prev = screenshotIndex === 0 ? total - 1 : screenshotIndex - 1;
+    setScreenshotIndex(prev);
+    requestAnimationFrame(() => scrollThumbIntoView(prev));
   };
 
-  // ✅ Новый универсальный обработчик для кнопок навигации
-  const handleSectionChange = (section: 'zona' | 'arena') => {
-    setCurrentSection(section);
-    setSearchQuery('');
-    setSelectedTags([]);
-    setSelectedGame(null);
-    setScreenshotIndex(0);
+  const scrollThumbIntoView = (index: number) => {
+    if (!thumbsRef.current) return;
+    const container = thumbsRef.current;
+    const items = Array.from(container.querySelectorAll<HTMLImageElement>('.thumb-item'));
+    const el = items[index];
+    if (el) {
+      // scrollIntoView center horizontally
+      const containerRect = container.getBoundingClientRect();
+      const elRect = el.getBoundingClientRect();
+      const offset = elRect.left - containerRect.left - (containerRect.width / 2) + (elRect.width / 2);
+      container.scrollBy({ left: offset, behavior: 'smooth' });
+    }
+  };
+
+  // детектор мобильного (одноразово при рендере; при ресайзе можно доработать)
+  const isMobile = typeof window !== 'undefined' ? window.innerWidth <= 768 : false;
+
+  const renderGameCard = (game: ZonaGame) => {
+    const isZonaOrAuto = currentSection === 'zona' || currentSection === 'autosim';
+    const color =
+      game.russian === 'Присутствует' ? '#25d366' :
+      game.russian === 'Есть субтитры' ? '#ffcc00' :
+      '#ff4d4d';
+    return (
+      <div key={game.name} className="game-card" onClick={() => setSelectedGame(game)}>
+        <img
+          src={isMobile ? game.mobileCardHeader : game.cardHeader}
+          alt={game.name}
+          className="card-header"
+        />
+        {isZonaOrAuto && (
+          <div
+            className="lang-indicator"
+            style={{ backgroundColor: color }}
+            aria-hidden
+          >
+            Руссккий: {game.russian}
+          </div>
+        )}
+        <h3>{game.name}</h3>
+      </div>
+    );
   };
 
   return (
     <div className="app">
       <header className="header">
-        <div
-          onClick={() => window.location.reload()} // ✅ перезагрузка страницы
-          style={{ cursor: 'pointer' }}
-        >
-          <img src="/logo.png" alt="Лого" />
+        <div className="logo" onClick={() => window.location.reload()}>
+          <img src="./src/img/logomayak.svg" alt="" />
         </div>
-        <button onClick={() => handleSectionChange('zona')}>VR-Зона</button>
-        <button onClick={() => handleSectionChange('arena')}>VR-Арена</button>
-        <button onClick={() => (window.location.href = 'http://192.168.93.254:5173/')}>
-          Редактирование
+
+        <nav className={`nav ${burgerOpen ? 'open' : ''}`}>
+          <button onClick={() => handleSectionChange('zona')}>VR-ЗОНА</button>
+          <button onClick={() => handleSectionChange('arena')}>VR-АРЕНА</button>
+          <button onClick={() => handleSectionChange('autosim')}>АВТОСИМУЛЯТОР</button>
+        </nav>
+
+        {/* Бургер: вставлена SVG-иконка + скрытые spans (стили используют spans) */}
+        <button
+          className={`burger ${burgerOpen ? 'open' : ''}`}
+          onClick={() => setBurgerOpen(!burgerOpen)}
+          aria-label="Меню"
+        >
+          {/* SVG-иконка для надежности */}
+          <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <rect y="0" width="22" height="2" rx="1" fill="white"/>
+            <rect y="7" width="22" height="2" rx="1" fill="white"/>
+            <rect y="14" width="22" height="2" rx="1" fill="white"/>
+          </svg>
         </button>
+
+        {/* <button className="edit-btn" onClick={() => window.location.href = 'http://192.168.93.254:5173/'}>
+          Редактирование
+        </button> */}
       </header>
 
-      <div className="content">
-        {currentSection === null && !selectedGame && (
+      {/* overlay для бургер-меню (заменён darken на градиент) */}
+      {burgerOpen && <div className="burger-overlay" onClick={() => setBurgerOpen(false)} />}
+
+      <div className={`content fade-${fade}`}>
+        {!currentSection && !selectedGame && (
           <div className="intro">
-            <img src="/logo.png" alt="Лого" />
-            <h1>Список игр VR для ознакомления</h1>
+            <img src='./src/img/Logo.svg' alt="Лого" />
+            <h1>Библиотека VR игр</h1>
           </div>
         )}
 
         {currentSection && !selectedGame && (
-          <div>
-            <input
-              type="text"
-              placeholder="Поиск по названию..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="search-input"
-            />
+          <>
+            <div className="search-filter-row">
+              <input
+                type="text"
+                placeholder="Поиск по названию..."
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+                className="search-input"
+              />
+              {isMobile && (
+                <button className="filter-btn" onClick={() => setFilterOpen(true)}>Фильтр</button>
+              )}
+            </div>
 
-            {currentSection === 'zona' && (
+            {!isMobile && (
               <div className="tags-filter">
-                <h3>Фильтр по тегам</h3>
-                {getUniqueTags().map((tag) => (
-                  <label key={tag}>
-                    <input
-                      type="checkbox"
-                      checked={selectedTags.includes(tag)}
-                      onChange={(e) => handleTagChange(tag, e.target.checked)}
-                    />
+                {getUniqueTags(
+                  currentSection === 'zona' ? zonaGames :
+                  currentSection === 'arena' ? arenaGames :
+                  autoGames
+                ).map(tag => (
+                  <button
+                    key={tag}
+                    className={selectedTags.includes(tag) ? 'active' : ''}
+                    onClick={() => handleTagChange(tag)}
+                  >
                     {tag}
-                  </label>
+                  </button>
                 ))}
               </div>
             )}
 
             <div className="games-grid">
-              {filteredGames().map((game) => (
-                <div key={game.name} className="game-card" onClick={() => setSelectedGame(game)}>
-                  <img src={game.cardHeader} alt="Шапка" className="card-header" />
-                  <h3>{game.name}</h3>
-                </div>
-              ))}
+              {filteredGames().map(g => renderGameCard(g))}
             </div>
-          </div>
+          </>
         )}
 
         {selectedGame && (
           <div className="game-page">
-            <button className="close-btn" onClick={closeDetails}>
-              ← Назад
-            </button>
+            <button className="close-btn" onClick={closeDetails}>← Назад</button>
+
+            {/* Название над описанием (требование) */}
             <h2>{selectedGame.name}</h2>
 
-            <img src={selectedGame.cardHeader} alt="Шапка" className="game-header" />
-            <p className="description">{selectedGame.description}</p>
-
-            {selectedGame.trailer && (
-              <div className="video-container">
-                <video
-                  controls
-                  src={selectedGame.trailer}
-                  poster={selectedGame.mobileCardHeader || selectedGame.cardHeader}
-                >
-                  Ваш браузер не поддерживает встроенные видео.
-                </video>
+            <div className="game-top-row">
+              <img
+                src={isMobile ? selectedGame.mobileCardHeader : selectedGame.cardHeader}
+                alt={selectedGame.name}
+                className="game-header"
+              />
+              <div className="game-description">{selectedGame.description}</div>
+              <div className="game-info">
+                <p><strong>Русский язык:</strong> {selectedGame.russian}</p>
+                <p><strong>Управление:</strong> {selectedGame.control.join(', ')}</p>
+                <p><strong>Опасности:</strong> {selectedGame.violation.join(', ')}</p>
+                <p><strong>Возраст:</strong> {selectedGame.age}</p>
+                <p><strong>Сложность:</strong> {selectedGame.difficulty}</p>
+                <p><strong>Теги:</strong> {selectedGame.tags.join(', ')}</p>
               </div>
-            )}
-
-            {selectedGame.screenshots.length > 0 && (
-              <div className="screenshot-slider">
-                <button className="arrow left" onClick={prevScreenshot}>
-                  ❮
-                </button>
-                <img
-                  src={selectedGame.screenshots[screenshotIndex]}
-                  alt={`Скриншот ${screenshotIndex + 1}`}
-                />
-                <button className="arrow right" onClick={nextScreenshot}>
-                  ❯
-                </button>
-                <div className="dots">
-                  {selectedGame.screenshots.map((_, i) => (
-                    <span
-                      key={i}
-                      className={`dot ${i === screenshotIndex ? 'active' : ''}`}
-                      onClick={() => setScreenshotIndex(i)}
-                    ></span>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            <div className="info-block">
-              <p><strong>Русский язык:</strong> {selectedGame.russian}</p>
-              <p><strong>Управление:</strong> {selectedGame.control.join(', ') || '—'}</p>
-              <p><strong>Опасности:</strong> {selectedGame.violation.join(', ') || '—'}</p>
-              <p><strong>Возраст:</strong> {selectedGame.age}</p>
-              <p><strong>Сложность:</strong> {selectedGame.difficulty}</p>
-              <p><strong>Теги:</strong> {selectedGame.tags.join(', ') || '—'}</p>
             </div>
 
             {'submodes' in selectedGame && selectedGame.submodes.length > 0 && (
@@ -267,20 +284,76 @@ useEffect(() => {
                 <div className="submodes-grid">
                   {selectedGame.submodes.map((submode, index) => (
                     <div key={index} className="submode-card">
-                      {submode.header && (
-                        <img src={submode.header} alt={submode.name} />
-                      )}
-                      <h4>{submode.name}</h4>
-                      <p>{submode.description}</p>
+                      <img src={submode.header} alt={submode.name} />
+                      <div>
+                        <h4>{submode.name}</h4>
+                        <p>{submode.description}</p>
+                      </div>
                     </div>
                   ))}
                 </div>
               </div>
             )}
-            
+
+            <div className="slider-container">
+              <div className="main-slide">
+                {screenshotIndex === 0 ? (
+                  <video
+                    controls
+                    src={selectedGame.trailer}
+                    poster={selectedGame.mobileCardHeader}
+                  />
+                ) : (
+                  <img src={selectedGame.screenshots[screenshotIndex - 1]} alt="screenshot" />
+                )}
+              </div>
+
+              <div className="thumbs" ref={thumbsRef}>
+                <button className="arrow left" onClick={prevScreenshot}>❮</button>
+
+                {/* inner — чтобы scrollIntoView работал на .thumb-item */}
+                <div className="thumbs-inner">
+                  {[selectedGame.trailer, ...selectedGame.screenshots].map((src, i) => (
+                    <img
+                      key={i}
+                      src={i === 0 ? selectedGame.cardHeader : src}
+                      alt={`preview-${i}`}
+                      className={`thumb-item ${i === screenshotIndex ? 'active' : ''}`}
+                      onClick={() => {
+                        setScreenshotIndex(i);
+                        requestAnimationFrame(() => scrollThumbIntoView(i));
+                      }}
+                    />
+                  ))}
+                </div>
+
+                <button className="arrow right" onClick={nextScreenshot}>❯</button>
+              </div>
+            </div>
           </div>
         )}
       </div>
+
+      {filterOpen && (
+        <div className="filter-modal" onClick={() => setFilterOpen(false)}>
+          <div className="filter-window" onClick={e => e.stopPropagation()}>
+            <button className="close-filter" onClick={() => setFilterOpen(false)}>✕</button>
+            {getUniqueTags(
+              currentSection === 'zona' ? zonaGames :
+              currentSection === 'arena' ? arenaGames :
+              autoGames
+            ).map(tag => (
+              <button
+                key={tag}
+                className={selectedTags.includes(tag) ? 'active' : ''}
+                onClick={() => handleTagChange(tag)}
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

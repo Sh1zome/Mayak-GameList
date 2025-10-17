@@ -1,324 +1,692 @@
 /* === Глобальные стили === */
-body, html {
+* {
+  box-sizing: border-box;
+  font-family: Actay, sans-serif;
+}
+
+:root {
+  // line-height: 0;
+  font-family: Actay, sans-serif;
+}
+
+html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #121212;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(14 14 14);
   color: #f5f5f5;
+  font-family: 'Inter', sans-serif;
 }
 
 .app {
-  text-align: center;
-  min-height: 100vh;
+  width: 100vw;
+  min-height: 100vh; /* ✅ 3. минимальная высота на весь экран */
+  overflow-x: hidden;
 }
 
-/* === Шапка === */
+/* === Хедер === */
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  background-color: #1e1e1e;
-  padding: 15px;
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  z-index: 100;
+  height: 89px;
+  background-color: rgb(28 32 35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  outline: 0.5px solid #61616175;
 
-  img {
-    height: 40px;
+  .logo {
+    line-height: 0;
+
+    img {
+      height: 36px;
+      cursor: pointer;
+      line-height: 0;
+    }
   }
 
-  button {
-    background-color: #2a2a2a;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    padding: 8px 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.2s ease;
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Actay, sans-serif;
 
-    &:hover {
-      background-color: #3a3a3a;
+    &.open {
+      // transform: none;
     }
+
+    button {
+      background: none;
+      border: none;
+      color: #f5f5f5;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 8px 16px;
+      transition: color 0.2s, transform 0.2s;
+      outline: none;
+      &:hover {
+        color: rgba(63,131,248,.5);
+        // transform: translateY(-2px);
+      }
+      &.active {
+        color: #e02424;
+      }
+    }
+  }
+
+  .edit-btn {
+    background-color: #e02424;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+    &:hover {
+      background-color: #e02424;
+    }
+  }
+
+  .burger {
+    display: none;
+    background: transparent;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    svg { display: block; }
+    outline: none;
   }
 }
 
 /* === Контент === */
 .content {
-  padding: 20px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 25px;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  margin-top: 89px;
+}
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-out {
+  opacity: 0;
+  transform: translateY(15px);
 }
 
-/* === Стартовая страница === */
-.intro {
-  margin-top: 80px;
+/* плавная морф анимация для индикатора языка (точка->прямоугольник) */
+.game-card .lang-indicator {
+  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  color: transparent; /* скрываем текст по умолчанию */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 0;
 
+  h3 {
+    font-family: Actay, sans-serif;
+  }
+}
+
+/* === Intro === */
+.intro {
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 50vh;
+  transform: translateY(-50%);
   img {
-    width: 120px;
+    width: max-content;
+    max-width: 90vw;
     margin-bottom: 20px;
   }
-
   h1 {
-    font-size: 24px;
-    color: #ddd;
+    margin-top: 0;
+    font-size: 4vw;
+    // color: #ddd;
   }
 }
 
-/* === Поиск и фильтры === */
+/* === Поиск === */
+.search-filter-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
 .search-input {
-  width: 100%;
-  max-width: 400px;
-  padding: 10px 15px;
-  margin: 10px auto;
-  display: block;
-  border-radius: 6px;
+  width: 200px;
+  padding: 10px;
+  background: #2a2a2a59;
   border: none;
+  border-radius: 8px;
+  color: #ffffff;
   outline: none;
-  background-color: #2a2a2a;
-  color: #fff;
-  font-size: 16px;
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  transition: 0.2s ease;
+
+  &[value=""] {
+    color: #ffffff36;
+    background: #2a2a2a28;
+
+    &:focus {
+      // color: #ffffff;
+      background: #2a2a2a59;
+    }
+  }
+}
+.filter-btn {
+  display: none;
+  height: 39px;
 }
 
+/* === Теги === */
 .tags-filter {
-  margin: 20px 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 12px;
+  justify-content: center;
+  margin-bottom: 25px;
 
-  label {
-    display: flex;
-    align-items: center;
-    background-color: #2c2c2c;
-    padding: 6px 10px;
+  button {
+    background-color: rgb(28 32 35);
+    outline: 0.5px solid #61616175;
+    color: #f5f5f5;
+    border: none;
     border-radius: 8px;
+    padding: 6px 12px;
     cursor: pointer;
     font-size: 14px;
-
-    input {
-      margin-right: 6px;
+    transition: all 0.2s;
+    font-family: Actay, sans-serif;
+    &.active {
+      background-color: #e02424;
     }
   }
 }
 
-/* === Сетка игр === */
+/* === Сетка игр — теперь flex, чтобы центрировалось при любом количестве карточек === */
 .games-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .game-card {
+  position: relative;
   background-color: #1b1b1b;
-  border-radius: 12px;
-  padding: 10px;
+  border-radius: 16px;
+  border: 2px solid #e02424;
+  width: 220px;
   cursor: pointer;
   transition: all 0.25s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
-
+  overflow: hidden;
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transform: translateY(-8px);
+    box-shadow: 0 0 10px #e0242480;
   }
 
   .card-header {
     width: 100%;
-    height: 140px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 12px 12px 0 0;
   }
 
   h3 {
-    font-size: 16px;
-    margin: 10px 0 0;
-    color: #f5f5f5;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .lang-indicator {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: transparent; /* цвет устанавливается инлайн-стилем */
+    color: transparent;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  &:hover .lang-indicator {
+    width: auto;
+    height: auto;
+    padding: 4px 8px;
+    border-radius: 10px;
+    color: #121212; /* текст виден только при hover */
+    background-color: inherit; /* берёт цвет из inline style (green/yellow/red) */
   }
 }
 
 /* === Страница игры === */
 .game-page {
   position: relative;
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: left;
-  padding: 20px;
+  margin-top: 30px;
 
   .close-btn {
     position: absolute;
-    top: 15px;
-    left: 15px;
-    background-color: transparent;
+    top: 0;
+    left: -70px;
+    background: none;
     border: none;
     color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    transition: opacity 0.2s ease;
-    opacity: 0.8;
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-
-  .game-header {
-    width: 100%;
-    border-radius: 12px;
-    margin-top: 40px;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  }
-
-  .description {
-    margin: 20px 0;
     font-size: 16px;
-    line-height: 1.6;
-    color: #ccc;
-  }
-
-  .video-container {
-    margin: 20px 0;
-    video {
-      width: 100%;
-      border-radius: 10px;
-      outline: none;
-    }
-  }
-
-  .info-block {
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 20px;
-    line-height: 1.8;
-
-    strong {
-      color: #fff;
-    }
-  }
-}
-
-/* === Слайдер скриншотов === */
-.screenshot-slider {
-  position: relative;
-  margin: 20px 0;
-  text-align: center;
-
-  img {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-
-  .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.4);
-    border: none;
-    color: #fff;
-    font-size: 28px;
     cursor: pointer;
-    border-radius: 50%;
-    padding: 8px 12px;
-    transition: background 0.2s;
+    z-index: 40;
+  }
 
-    &:hover {
-      background: rgba(0, 0, 0, 0.7);
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .game-top-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 25px;
+
+    .game-header {
+      flex: 0 0 33%;
+      width: 10%;
+      border-radius: 12px;
+      object-fit: cover;
+      height: auto;
+      aspect-ratio: 2/3;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     }
 
-    &.left {
-      left: 10px;
+    .game-description {
+      flex: 0 0 34%;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #ccc;
+      font-family: Inter, sans-serif;
     }
 
-    &.right {
-      right: 10px;
+    .game-info {
+      flex: 0 0 28%;
+      background-color: #1e1e1e;
+      padding: 15px;
+      border-radius: 12px;
+      line-height: 1.8;
+      p {
+        font-family: Inter, sans-serif;
+      }
+      strong {
+        font-family: InterBold, sans-serif;
+        color: #fff;
+      }
     }
   }
 
-  .dots {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
+  /* === Подрежимы === */
+  .submodes-section {
+    margin-bottom: 30px;
+    h3 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    .submodes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+      .submode-card {
+        flex-direction: row !important;
+        display: flex;
+        gap: 15px;
+        align-items: flex-start;
+        background: #1b1b1b;
+        border-radius: 12px;
+        border: 2px solid #e02424;
+        padding: 10px;
+        img {
+          width: 120px;
+          height: 120px;
+          border-radius: 8px;
+          object-fit: cover;
+        }
+        h4 { margin: 0; font-size: 16px; color: #fff; }
+        p { font-size: 14px; color: #ccc; margin-top: 4px; }
+      }
+    }
+  }
 
-    .dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: #666;
-      cursor: pointer;
-      transition: background 0.2s;
+  /* === Слайдер === */
+  .slider-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
 
-      &.active {
-        background: #fff;
+    .main-slide {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      video, img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      /* ✅ стрелки теперь здесь — поверх плеера */
+      .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0,0,0,0.5);
+        border: none;
+        color: #fff;
+        font-size: 26px;
+        cursor: pointer;
+        z-index: 15;
+        padding: 8px 12px;
+        border-radius: 50%;
+        transition: background 0.2s;
+        &:hover { background: rgba(0,0,0,0.8); }
+        &.left { left: 10px; }
+        &.right { right: 10px; }
+      }
+    }
+
+    .thumbs {
+      display: flex;
+      align-items: center;
+      overflow-x: auto;
+      overflow-y: hidden;
+      position: relative;
+      gap: 8px;
+      padding: 6px 0;
+      scroll-behavior: smooth;
+      justify-content: flex-start; /* ✅ убрано центрирование, чтобы клики не ломались */
+
+      .thumbs-inner {
+        display: flex;
+        gap: 8px;
+        transition: transform 0.3s ease;
+        justify-content: flex-start; /* ✅ убрано центрирование */
+        padding: 0 4px;
+      }
+
+      .thumb-item {
+        width: 90px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 6px;
+        opacity: 0.6;
+        cursor: pointer;
+        flex-shrink: 0;
+        transition: opacity 0.18s, transform 0.18s;
+        z-index: 1;
+      }
+
+      .thumb-item.active {
+        opacity: 1;
+        border: 2px solid #e02424;
+        transform: translateY(-4px);
+        z-index: 2;
       }
     }
   }
 }
 
-/* === Подрежимы (Arena Submodes) === */
-.submodes-section {
-  margin-top: 30px;
+/* === Модалка фильтра === */
+.filter-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 
-  h3 {
-    text-align: center;
-    margin-bottom: 15px;
-    color: #fff;
-  }
-
-  .submodes-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 15px;
-  }
-
-  .submode-card {
-    background-color: #1b1b1b;
-    border-radius: 12px;
-    padding: 12px;
-    text-align: left;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
-    transition: transform 0.2s;
-
-    &:hover {
-      transform: translateY(-3px);
+  .filter-window {
+    max-height: 70vh;
+    overflow-y: scroll;
+    background: #1b1b1b;
+    border-top: 10px solid #1b1b1b;
+    border-bottom: 10px solid #1b1b1b;
+    border-right: 10px solid #1b1b1b;
+    outline: 0.5px solid #61616175;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    position: relative;
+    max-width: 90%;
+    .close-filter {
+      position: fixed;
+      right: 40px;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 22px;
+      cursor: pointer;
     }
-
-    img {
-      width: 100%;
-      height: 130px;
-      object-fit: cover;
+    button {
+      background-color: #2c2c2c;
+      border: none;
       border-radius: 8px;
-      margin-bottom: 10px;
-    }
-
-    h4 {
-      font-size: 16px;
-      margin: 5px 0;
       color: #f5f5f5;
-    }
-
-    p {
-      font-size: 14px;
-      color: #ccc;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 9pt;
+      &.active {
+        background-color: #e02424;
+      }
+      &:first-child {
+        margin-top: -20px;
+      }
     }
   }
 }
 
-/* === Адаптивность === */
-@media (max-width: 600px) {
+/* === Бургер === */
+.burger {}
+
+/* === Мобильная адаптация === */
+@media (max-width: 768px) {
+  .header {
+    height: 64px;
+    .nav { display: none; }
+    .burger {
+      display: block;
+    }
+    .edit-btn { display: none; }
+  }
+
+  .content {
+    margin-top: 64px;
+  }
+
+  .burger-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    /* заменил darken: более мягкий градиент */
+    background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.6));
+    z-index: 99;
+  }
+
+  .nav.open {
+    position: fixed;
+    top: 64px;
+    // right: 10px;
+    background: rgb(28, 32, 35);
+    outline: 0.5px solid rgba(97, 97, 97, 0.4588235294);
+    // border: 2px solid #e02424;
+    // border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .search-filter-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  @keyframes fadeSlide {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .filter-btn {
+    display: block;
+    background-color: #e02424;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .games-grid {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .game-card {
+    width: 90%;
+    .card-header {
+      width: 100%;
+      height: auto;
+      // aspect-ratio: 16 / 9;
+      object-fit: contain;
+    }
+    .lang-indicator {
+      position: static;
+      display: block;
+      margin: 8px auto 0;
+      width: max-content;
+      height: auto;
+      padding: 4px 8px;
+      border-radius: 10px;
+      text-align: center;
+      color: #121212;
+      font-weight: 700;
+      font-size: 12px;
+    }
+  }
+
   .game-page {
-    padding: 10px;
-
-    .description {
-      font-size: 14px;
+    .close-btn {
+      z-index: 60;
+      position: fixed;
+      top: 17px;
+      left: 10px;
+      // background: rgba(0,0,0,0.6);
+      padding: 4px 8px;
+      border-radius: 8px;
     }
-
-    .info-block {
-      font-size: 14px;
+    h2 { text-align: center; }
+    .game-top-row {
+      flex-direction: column;
+      align-items: center;
+      .game-header {
+        width: 90%;
+        aspect-ratio: 16 / 9;
+      }
+      .game-description, .game-info {
+        width: 90%;
+        margin-top: 10px;
+      }
+    }
+    .slider-container {
+      width: 100%;
+      max-width: 95%;
+      margin-bottom: 35vh;
+      .thumbs {
+        overflow-x: auto;
+        justify-content: flex-start;
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          width: 40px;
+          background: linear-gradient(to left, #121212, transparent);
+          pointer-events: none;
+        }
+        .arrow {
+          display: none;
+        }
+      }
     }
   }
 }
+
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+  font-family: "Actay"; 
+  // адрес шрифта и тип 
+  src: url("./src/fonts/ActayWide-Bold.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+  font-family: "Inter"; 
+  // адрес шрифта и тип 
+  src: url("./src/fonts/Inter/Inter-Medium.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+  font-family: "InterBold"; 
+  // адрес шрифта и тип 
+  src: url("./src/fonts/Inter/Inter-ExtraBold.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
