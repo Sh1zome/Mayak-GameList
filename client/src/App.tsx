@@ -48,7 +48,6 @@ const App: React.FC = () => {
   const [filterOpen, setFilterOpen] = useState(false);
   const [fade, setFade] = useState<'in' | 'out'>('in');
 
-  // refs для слайдера превью
   const thumbsRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -57,7 +56,6 @@ const App: React.FC = () => {
     fetch('./autosim.json').then(res => res.json()).then(data => setAutoGames(data.games || []));
   }, []);
 
-  // История назад: если открыта игра — закрываем (и не даём назад уезжать)
   useEffect(() => {
     const handleBack = (event: PopStateEvent) => {
       if (selectedGame) {
@@ -69,6 +67,7 @@ const App: React.FC = () => {
     return () => window.removeEventListener('popstate', handleBack);
   }, [selectedGame]);
 
+  // ✅ Скролл вверх при смене вкладки (плавно)
   const handleSectionChange = (section: 'zona' | 'arena' | 'autosim') => {
     setFade('out');
     setTimeout(() => {
@@ -79,6 +78,7 @@ const App: React.FC = () => {
       setScreenshotIndex(0);
       setFade('in');
       setBurgerOpen(false);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 200);
   };
 
@@ -86,12 +86,14 @@ const App: React.FC = () => {
     setSelectedTags(prev => prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]);
   };
 
+  // ✅ Моментальный возврат вверх при выходе из игры
   const closeDetails = () => {
     setFade('out');
     setTimeout(() => {
       setSelectedGame(null);
       setScreenshotIndex(0);
       setFade('in');
+      window.scrollTo({ top: 0, behavior: 'auto' });
     }, 200);
   };
 
@@ -111,15 +113,14 @@ const App: React.FC = () => {
     return list;
   };
 
-  // Пролистывание основного слайда / превью
   const nextScreenshot = () => {
     if (!selectedGame) return;
-    const total = selectedGame.screenshots.length + 1; // +1 — трейлер
+    const total = selectedGame.screenshots.length + 1;
     const next = (screenshotIndex + 1) % total;
     setScreenshotIndex(next);
-    // прокрутим превью в центр активного
     requestAnimationFrame(() => scrollThumbIntoView(next));
   };
+
   const prevScreenshot = () => {
     if (!selectedGame) return;
     const total = selectedGame.screenshots.length + 1;
@@ -134,7 +135,6 @@ const App: React.FC = () => {
     const items = Array.from(container.querySelectorAll<HTMLImageElement>('.thumb-item'));
     const el = items[index];
     if (el) {
-      // scrollIntoView center horizontally
       const containerRect = container.getBoundingClientRect();
       const elRect = el.getBoundingClientRect();
       const offset = elRect.left - containerRect.left - (containerRect.width / 2) + (elRect.width / 2);
@@ -142,17 +142,23 @@ const App: React.FC = () => {
     }
   };
 
-  // детектор мобильного (одноразово при рендере; при ресайзе можно доработать)
   const isMobile = typeof window !== 'undefined' ? window.innerWidth <= 768 : false;
 
+  // ✅ Добавлен scrollTo при открытии игры
   const renderGameCard = (game: ZonaGame) => {
     const isZonaOrAuto = currentSection === 'zona' || currentSection === 'autosim';
     const color =
       game.russian === 'Присутствует' ? '#25d366' :
       game.russian === 'Есть субтитры' ? '#ffcc00' :
       '#ff4d4d';
+
+    const handleOpenGame = () => {
+      setSelectedGame(game);
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    };
+
     return (
-      <div key={game.name} className="game-card" onClick={() => setSelectedGame(game)}>
+      <div key={game.name} className="game-card" onClick={handleOpenGame}>
         <img
           src={isMobile ? game.mobileCardHeader : game.cardHeader}
           alt={game.name}
@@ -164,7 +170,7 @@ const App: React.FC = () => {
             style={{ backgroundColor: color }}
             aria-hidden
           >
-            Руссккий: {game.russian}
+            Русский: {game.russian}
           </div>
         )}
         <h3>{game.name}</h3>
@@ -185,26 +191,19 @@ const App: React.FC = () => {
           <button onClick={() => handleSectionChange('autosim')}>АВТОСИМУЛЯТОР</button>
         </nav>
 
-        {/* Бургер: вставлена SVG-иконка + скрытые spans (стили используют spans) */}
         <button
           className={`burger ${burgerOpen ? 'open' : ''}`}
           onClick={() => setBurgerOpen(!burgerOpen)}
           aria-label="Меню"
         >
-          {/* SVG-иконка для надежности */}
           <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
             <rect y="0" width="22" height="2" rx="1" fill="white"/>
             <rect y="7" width="22" height="2" rx="1" fill="white"/>
             <rect y="14" width="22" height="2" rx="1" fill="white"/>
           </svg>
         </button>
-
-        {/* <button className="edit-btn" onClick={() => window.location.href = 'http://192.168.93.254:5173/'}>
-          Редактирование
-        </button> */}
       </header>
 
-      {/* overlay для бургер-меню (заменён darken на градиент) */}
       {burgerOpen && <div className="burger-overlay" onClick={() => setBurgerOpen(false)} />}
 
       <div className={`content fade-${fade}`}>
@@ -257,8 +256,6 @@ const App: React.FC = () => {
         {selectedGame && (
           <div className="game-page">
             <button className="close-btn" onClick={closeDetails}>← Назад</button>
-
-            {/* Название над описанием (требование) */}
             <h2>{selectedGame.name}</h2>
 
             <div className="game-top-row">
@@ -310,8 +307,6 @@ const App: React.FC = () => {
 
               <div className="thumbs" ref={thumbsRef}>
                 <button className="arrow left" onClick={prevScreenshot}>❮</button>
-
-                {/* inner — чтобы scrollIntoView работал на .thumb-item */}
                 <div className="thumbs-inner">
                   {[selectedGame.trailer, ...selectedGame.screenshots].map((src, i) => (
                     <img
@@ -326,7 +321,6 @@ const App: React.FC = () => {
                     />
                   ))}
                 </div>
-
                 <button className="arrow right" onClick={nextScreenshot}>❯</button>
               </div>
             </div>

@@ -563,6 +563,10 @@ html, body {
     gap: 10px;
     z-index: 1000;
     width: 100%;
+
+    button {
+      width: 100%;
+    }
   }
 
   .search-filter-row {
