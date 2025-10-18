@@ -12,17 +12,17 @@
       "screenshots": [],
       "description": "Сборник весёлых командных мини-игр в стиле вечеринок. Участвуйте в состязаниях, требующих ловкости, реакции и слаженности с напарниками.",
       "trailer": "",
-      "cardHeader": "",
-      "mobileCardHeader": "",
+      "cardHeader": "https://static.tildacdn.com/tild3331-3438-4732-b335-613934306637/party_games.png",
+      "mobileCardHeader": "https://static.tildacdn.com/tild3965-6562-4562-a132-623530303430/party.png",
       "submodes": [
-        { "name": "Командная рыбалка", "description": "Ловите рыбу быстрее соперников, координируя действия всей команды.", "header": "" },
-        { "name": "Спаси Пингвинов", "description": "Перемещайте пингвинов в безопасное место, избегая ловушек и препятствий.", "header": "" },
-        { "name": "Хранитель огня", "description": "Поддерживайте пламя как можно дольше, отбиваясь от противников.", "header": "" },
-        { "name": "Битва красок", "description": "Закрашивайте арену в цвет своей команды, не попадаясь под струи противников.", "header": "" },
-        { "name": "Подземелье алмазов", "description": "Соберите как можно больше алмазов, избегая ловушек и монстров.", "header": "" },
-        { "name": "Лучный бой", "description": "Динамичная аркада с луками и стрелами — меткость решает всё!", "header": "" },
-        { "name": "Битва за урожай", "description": "Соберите больше урожая, чем команда соперников, пока не закончится время.", "header": "" },
-        { "name": "Реактивный бокс", "description": "Безумный боксерский поединок с реактивными перчатками!", "header": "" }
+        { "name": "Командная рыбалка", "description": "Ловите рыбу быстрее соперников, координируя действия всей команды.", "header": "https://static.tildacdn.com/tild6231-3062-4332-a566-633830373139/Poster_Team_fishing_.png" },
+        { "name": "Спаси Пингвинов", "description": "Перемещайте пингвинов в безопасное место, избегая ловушек и препятствий.", "header": "https://static.tildacdn.com/tild3733-3832-4661-b238-623531303062/Poster_Save_the_peng.png" },
+        { "name": "Хранитель огня", "description": "Поддерживайте пламя как можно дольше, отбиваясь от противников.", "header": "https://static.tildacdn.com/tild3338-6263-4466-b463-353031626638/house_keeper_1.png" },
+        { "name": "Битва красок", "description": "Закрашивайте арену в цвет своей команды, не попадаясь под струи противников.", "header": "https://static.tildacdn.com/tild6464-3337-4564-b430-613164333236/PAINT_BATTLE.png" },
+        { "name": "Подземелье алмазов", "description": "Соберите как можно больше алмазов, избегая ловушек и монстров.", "header": "https://static.tildacdn.com/tild3265-6564-4133-a634-636131353733/Diamon_dungeon_1.png" },
+        { "name": "Лучный бой", "description": "Динамичная аркада с луками и стрелами — меткость решает всё!", "header": "https://static.tildacdn.com/tild6430-3839-4836-b032-346662336263/Archery_battle.png" },
+        { "name": "Битва за урожай", "description": "Соберите больше урожая, чем команда соперников, пока не закончится время.", "header": "https://static.tildacdn.com/tild6338-3365-4536-b233-326662313738/Poster_Harvest_battl.png" },
+        { "name": "Реактивный бокс", "description": "Безумный боксерский поединок с реактивными перчатками!", "header": "https://static.tildacdn.com/tild3866-3639-4266-b336-313336653934/JET_boxing.png" }
       ]
     },
     {
@@ -37,21 +37,21 @@
       "screenshots": [],
       "description": "Продолжение серии Party с ещё большим количеством динамичных и ярких мини-игр, созданных для шумных компаний и командных состязаний.",
       "trailer": "",
-      "cardHeader": "",
-      "mobileCardHeader": "",
+      "cardHeader": "https://static.tildacdn.com/tild3433-3733-4263-b638-333936353035/party_games_2.png",
+      "mobileCardHeader": "https://static.tildacdn.com/tild6435-6562-4339-a363-376163636634/Party_2.png",
       "submodes": [
-        { "name": "Кибербокс", "description": "Футуристичный боксерский поединок в стиле аркады.", "header": "" },
-        { "name": "Фотоохота", "description": "Сфотографируйте как можно больше редких существ в ограниченное время.", "header": "" },
-        { "name": "Золотая лихорадка", "description": "Собирайте золото и избегайте ловушек в шахтах.", "header": "" },
-        { "name": "Завод роботов", "description": "Соберите как можно больше деталей роботов, соревнуясь с другой командой.", "header": "" },
-        { "name": "Царь ёлки", "description": "Украсьте ёлку быстрее всех, не уронив игрушки!", "header": "" },
-        { "name": "Танцевальная битва", "description": "Повторяйте движения под музыку и соревнуйтесь в ритме!", "header": "" },
-        { "name": "Древорубы", "description": "Соревнуйтесь в скорости и точности при рубке деревьев.", "header": "" },
-        { "name": "Акулий бассейн", "description": "Плавайте между акулами и соберите больше жемчуга, чем соперники.", "header": "" },
-        { "name": "Дино пицца", "description": "Приготовьте и доставьте пиццу динозаврам, пока не истекло время!", "header": "" },
-        { "name": "Пиратский теннис", "description": "Веселый теннис на палубе пиратского корабля!", "header": "" },
-        { "name": "Светлячки", "description": "Ловите светлячков, освещая темный лес.", "header": "" },
-        { "name": "Дикий запад", "description": "Испытайте себя в дуэлях на закате Дикого Запада!", "header": "" }
+        { "name": "Кибербокс", "description": "Футуристичный боксерский поединок в стиле аркады.", "header": "https://static.tildacdn.com/tild3134-3336-4433-b531-353466373538/urban_boxing_new_cop.png" },
+        { "name": "Фотоохота", "description": "Сфотографируйте как можно больше редких существ в ограниченное время.", "header": "https://static.tildacdn.com/tild6531-3732-4234-a466-303536643131/ANIMAL_SNAP_copy_3.png" },
+        { "name": "Золотая лихорадка", "description": "Собирайте золото и избегайте ловушек в шахтах.", "header": "https://static.tildacdn.com/tild3031-6537-4630-b032-643966326438/gold_rush_copy_3.png" },
+        { "name": "Завод роботов", "description": "Соберите как можно больше деталей роботов, соревнуясь с другой командой.", "header": "https://static.tildacdn.com/tild6230-3332-4063-b339-323438313964/robot_factory_5.png" },
+        { "name": "Царь ёлки", "description": "Украсьте ёлку быстрее всех, не уронив игрушки!", "header": "https://static.tildacdn.com/tild6430-3435-4732-b139-346665356235/__3.png" },
+        { "name": "Танцевальная битва", "description": "Повторяйте движения под музыку и соревнуйтесь в ритме!", "header": "https://static.tildacdn.com/tild6139-3535-4964-b331-373632353631/dance_battle_cover_c.png" },
+        { "name": "Древорубы", "description": "Соревнуйтесь в скорости и точности при рубке деревьев.", "header": "https://static.tildacdn.com/tild3933-3864-4232-a637-333031333134/_copy_3.png" },
+        { "name": "Акулий бассейн", "description": "Плавайте между акулами и соберите больше жемчуга, чем соперники.", "header": "https://static.tildacdn.com/tild3563-6665-4166-b461-656531643930/__3.png" },
+        { "name": "Дино пицца", "description": "Приготовьте и доставьте пиццу динозаврам, пока не истекло время!", "header": "https://static.tildacdn.com/tild6261-3036-4235-a562-666363316261/Dino_pizza_2_copy_2.png" },
+        { "name": "Пиратский теннис", "description": "Веселый теннис на палубе пиратского корабля!", "header": "https://static.tildacdn.com/tild6334-3665-4761-b234-376361633239/Pirate_tennis_copy_2.png" },
+        { "name": "Светлячки", "description": "Ловите светлячков, освещая темный лес.", "header": "https://static.tildacdn.com/tild3234-3633-4166-b231-613937343337/Poster_firefly_copy_.png" },
+        { "name": "Дикий запад", "description": "Испытайте себя в дуэлях на закате Дикого Запада!", "header": "https://static.tildacdn.com/tild3433-3261-4833-b665-626531323662/wild_west_3.png" }
       ]
     },
     {
@@ -66,8 +66,8 @@
       "screenshots": [],
       "description": "Тактический шутер с акцентом на командное взаимодействие, стратегию и точную координацию.",
       "trailer": "",
-      "cardHeader": "",
-      "mobileCardHeader": "",
+      "cardHeader": "https://static.tildacdn.com/tild3930-3063-4763-b762-383634386432/photo.png",
+      "mobileCardHeader": "https://static.tildacdn.com/tild3762-3164-4239-b338-613934383736/tactics.png",
       "submodes": [
         { "name": "Бой насмерть", "description": "Классическая перестрелка — побеждает тот, кто живёт дольше всех.", "header": "" },
         { "name": "Гонка вооружений", "description": "Меняйте оружие с каждым убийством и дойдите до последнего уровня первым.", "header": "" },
@@ -87,8 +87,8 @@
       "screenshots": [],
       "description": "Динамичные PvP-сражения на арене. Побеждает только сильнейшая команда!",
       "trailer": "",
-      "cardHeader": "",
-      "mobileCardHeader": "",
+      "cardHeader": "https://static.tildacdn.com/tild3136-3331-4331-a336-333034343934/photo.png",
+      "mobileCardHeader": "https://static.tildacdn.com/tild6537-6535-4537-b634-366231653634/battle.png",
       "submodes": [
         { "name": "Бой насмерть", "description": "Сражение всех против всех без правил.", "header": "" },
         { "name": "Контроль точки", "description": "Удерживайте контрольную точку дольше противников.", "header": "" },
@@ -108,8 +108,8 @@
       "screenshots": [],
       "description": "Классическая аркада о выживании против волн зомби. Совместите меткость, хладнокровие и кооперацию, чтобы продержаться как можно дольше.",
       "trailer": "",
-      "cardHeader": "",
-      "mobileCardHeader": "",
+      "cardHeader": "https://static.tildacdn.com/tild3530-3339-4530-b865-636632343037/photo.png",
+      "mobileCardHeader": "https://static.tildacdn.com/tild3361-3836-4033-b665-353336376463/zombies.png",
       "submodes": [
         { "name": "Оригинальный", "description": "Полная версия выживания с множеством волн и боссами.", "header": "" },
         { "name": "Укороченная версия", "description": "Быстрая игра с сокращённым числом волн.", "header": "" },
@@ -130,8 +130,8 @@
       "screenshots": [],
       "description": "Захватывающие миссии в декорациях Лас-Вегаса. Выполняйте задания, сражайтесь и раскрывайте заговор в блестящем городе греха.",
       "trailer": "",
-      "cardHeader": "",
-      "mobileCardHeader": "",
+      "cardHeader": "https://static.tildacdn.com/tild3765-6165-4131-a631-386561313735/zombie_vegas.png",
+      "mobileCardHeader": "https://static.tildacdn.com/tild6366-3266-4732-a536-616163383534/_2.png",
       "submodes": [
         { "name": "Норма", "description": "Классический баланс сложности и врагов.", "header": "" },
         { "name": "Часть 1", "description": "Первая глава сюжетной кампании в Вегасе.", "header": "" },
@@ -151,8 +151,8 @@
       "screenshots": [],
       "description": "Погрузитесь в жуткую атмосферу страха. Исследуйте тёмные помещения, решайте загадки и постарайтесь не потерять самообладание.",
       "trailer": "",
-      "cardHeader": "",
-      "mobileCardHeader": "",
+      "cardHeader": "https://static.tildacdn.com/tild3339-3161-4936-b162-363833653539/image.png",
+      "mobileCardHeader": "https://static.tildacdn.com/tild3935-3336-4933-b963-333839306430/horror.png",
       "submodes": [
         { "name": "Норма", "description": "Основной сюжетный режим с классическим балансом страха и опасностей.", "header": "" },
         { "name": "Хардкор", "description": "Повышенная сложность, ограниченные ресурсы и постоянное напряжение.", "header": "" }
