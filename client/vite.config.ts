@@ -5,9 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/Mayak-GameList/',
   plugins: [react()],
-  build: {
-    outDir: 'dist',
-  },
   server: {
     proxy: {
       '/api': {
