@@ -672,7 +672,7 @@ html, body {
   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
   font-family: "Actay"; 
   // адрес шрифта и тип 
-  src: url("./src/fonts/ActayWide-Bold.otf") format("truetype"); 
+  src: url("/fonts/ActayWide-Bold.otf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 } 
@@ -681,7 +681,7 @@ html, body {
   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
   font-family: "Inter"; 
   // адрес шрифта и тип 
-  src: url("./src/fonts/Inter/Inter-Medium.otf") format("truetype"); 
+  src: url("/fonts/Inter/Inter-Medium.otf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 } 
@@ -690,7 +690,7 @@ html, body {
   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
   font-family: "InterBold"; 
   // адрес шрифта и тип 
-  src: url("./src/fonts/Inter/Inter-ExtraBold.otf") format("truetype"); 
+  src: url("/fonts/Inter/Inter-ExtraBold.otf") format("truetype"); 
   font-style: normal; 
   font-weight: normal; 
 } 

@@ -51,13 +51,13 @@ const App: React.FC = () => {
   const thumbsRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    fetch('./games.json').then(res => res.json()).then(data => setZonaGames(data.games || []));
-    fetch('./arena.json').then(res => res.json()).then(data => setArenaGames(data.games || []));
-    fetch('./autosim.json').then(res => res.json()).then(data => setAutoGames(data.games || []));
+    fetch('/games.json').then(res => res.json()).then(data => setZonaGames(data.games || []));
+    fetch('/arena.json').then(res => res.json()).then(data => setArenaGames(data.games || []));
+    fetch('/autosim.json').then(res => res.json()).then(data => setAutoGames(data.games || []));
   }, []);
 
   useEffect(() => {
-    const handleBack = (event: PopStateEvent) => {
+    const handleBack = () => {
       if (selectedGame) {
         closeDetails();
       }
@@ -182,7 +182,7 @@ const App: React.FC = () => {
     <div className="app">
       <header className="header">
         <div className="logo" onClick={() => window.location.reload()}>
-          <img src="./src/img/logomayak.svg" alt="" />
+          <img src="/img/logomayak.svg" alt="" />
         </div>
 
         <nav className={`nav ${burgerOpen ? 'open' : ''}`}>
@@ -209,7 +209,7 @@ const App: React.FC = () => {
       <div className={`content fade-${fade}`}>
         {!currentSection && !selectedGame && (
           <div className="intro">
-            <img src='./src/img/Logo.svg' alt="Лого" />
+            <img src='/img/Logo.svg' alt="Лого" />
             <h1>Библиотека VR игр</h1>
           </div>
         )}
