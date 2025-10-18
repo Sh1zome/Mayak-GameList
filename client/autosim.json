@@ -3,56 +3,44 @@
     {
       "id": "op15",
       "name": "Project CARS 2",
-      "russian": "Присутствует",
-      "control": [],
-      "violation": [],
-      "age": "Взрослые (18 и более лет)",
+      "russian": "Есть субтитры",
+      "control": ["Автосимулятор"],
+      "violation": ["-"],
+      "age": "6+",
       "difficulty": 3,
-      "tags": [
-        "Шутер",
-        "Зомби",
-        "Кооператив",
-        "Открытый мир",
-        "Хоррор"
-      ],
+      "tags": [],
       "screenshots": [
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_36e410907c892275702b2310056bcd04e58384db.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_29553433f4e1b48062c689e8575c5f5a977f59cd.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_7422e46bfc2310d4131e4af361d15a7edb21ecba.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_5aefc7c821a1f9088f0a007da51e6902cd7f7119.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_cbf8b0847ccb320d3936d49f8637e9b4c3db9f6d.jpg"
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_a5cade5769d61991dd4c6f0323df272c83545ac5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_b1e44a2109e9674996a5fc7a4e5ef4d165703ae4.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_5f54e28eaa9b92ca437ba86ba7242b845d7da338.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_41d42428c4ec79078e4e7d638eda452604adf61d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_1df5daed7aff23328b515839ad543cf91fc92277.jpg"
       ],
-      "description": "Arizona Sunshine Remake: пересозданная версия оригинальной игры про зомби-апокалипсис, с улучшенной графикой, физикой и оружием. Выживайте либо в одиночку, либо в кооперативе до четырёх человек, исследуя опасные зоны и сражаясь с ордами нежити.",
-      "trailer": "https://cdn.steamstatic.com/steam/apps/257066228/movie_max.mp4",
-      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/library_600x900_2x.jpg",
-      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/e4769f8065fd9e7f9b07351116306712d9350ed7/capsule_616x353.jpg?t=1732789729"
+      "description": "Project CARS 2 — это гоночный симулятор, разработанный Slightly Mad Studios, с акцентом на максимальный реализм. Игра предлагает разнообразный контент, включая более 180 автомобилей и 140 трасс в 60 локациях, реалистичные погодные условия (включая динамическую смену погоды и времени суток), а также множество гоночных дисциплин. Симулятор подходит для игроков, которые ищут хардкорный опыт вождения, а также имеет более детальный карьерный режим и улучшенный многопользовательский режим по сравнению с первой частью. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256696034/movie_max.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/capsule_616x353.jpg?t=1663714740"
     },
     {
       "id": "15le",
       "name": "DiRT Rally",
       "russian": "Отсутствует",
-      "control": [],
-      "violation": [],
-      "age": "Взрослые (18 и более лет)",
+      "control": ["Автосимулятор"],
+      "violation": ["-"],
+      "age": "6+",
       "difficulty": 3,
-      "tags": [
-        "Шутер",
-        "Зомби",
-        "Кооператив",
-        "Открытый мир",
-        "Хоррор"
-      ],
+      "tags": [],
       "screenshots": [
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_36e410907c892275702b2310056bcd04e58384db.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_29553433f4e1b48062c689e8575c5f5a977f59cd.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_7422e46bfc2310d4131e4af361d15a7edb21ecba.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_5aefc7c821a1f9088f0a007da51e6902cd7f7119.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_cbf8b0847ccb320d3936d49f8637e9b4c3db9f6d.jpg"
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_76b5784b99a251b707cac3e9f980686bed315f55.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_6c56526b621377580b497ea5632dc094e6327012.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_c574eb7701f6b282de79b50d8e33b29a2b01dce2.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_97e9adfe4c148d1d67b3114be6a3dea529b07c91.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_82a5fa9c0ac77386fba64fde3c09e5e8798e842a.jpg"
       ],
-      "description": "Arizona Sunshine Remake: пересозданная версия оригинальной игры про зомби-апокалипсис, с улучшенной графикой, физикой и оружием. Выживайте либо в одиночку, либо в кооперативе до четырёх человек, исследуя опасные зоны и сражаясь с ордами нежити.",
-      "trailer": "https://cdn.steamstatic.com/steam/apps/257066228/movie_max.mp4",
-      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/library_600x900_2x.jpg",
-      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/e4769f8065fd9e7f9b07351116306712d9350ed7/capsule_616x353.jpg?t=1732789729"
+      "description": "DiRT Rally — это реалистичный гоночный симулятор ралли и ралли-кросса от Codemasters, отличающийся от предыдущих игр серии отсутствием сюжета и фокусом на реалистичную физику вождения. В игре игроки соревнуются на время на сложных трассах с разным покрытием и в разных погодных условиях, а повреждения автомобиля реально влияют на управление. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256662577/movie_max.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/capsule_616x353.jpg?t=1667844327"
     }
   ]
 }

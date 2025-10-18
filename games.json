@@ -4,9 +4,9 @@
       "id": "fe55",
       "name": "Arizona Sunshine Remake",
       "russian": "Присутствует",
-      "control": [],
-      "violation": [],
-      "age": "Взрослые (18 и более лет)",
+      "control": ["Отклонение стиков", "Телепорт"],
+      "violation": ["Жестокость", "Зомби"],
+      "age": "16+",
       "difficulty": 3,
       "tags": [
         "Шутер",
@@ -22,7 +22,7 @@
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_5aefc7c821a1f9088f0a007da51e6902cd7f7119.jpg",
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_cbf8b0847ccb320d3936d49f8637e9b4c3db9f6d.jpg"
       ],
-      "description": "Arizona Sunshine Remake: пересозданная версия оригинальной игры про зомби-апокалипсис, с улучшенной графикой, физикой и оружием. Выживайте либо в одиночку, либо в кооперативе до четырёх человек, исследуя опасные зоны и сражаясь с ордами нежити.",
+      "description": "Arizona Sunshine Remake — это обновленная версия оригинального VR-шутера про зомби, вышедшая в 2024 году. Ремейк предлагает полностью переработанную графику, улучшенный геймплей и новую систему нанесения урона, включая контент из всех оригинальных DLC. Игроки могут проходить одиночную кампанию или играть в кооперативном режиме с тремя другими игроками, исследуя постапокалиптическую Аризону. ",
       "trailer": "https://cdn.steamstatic.com/steam/apps/257066228/movie_max.mp4",
       "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/library_600x900_2x.jpg",
       "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/e4769f8065fd9e7f9b07351116306712d9350ed7/capsule_616x353.jpg?t=1732789729"
@@ -32,8 +32,7 @@
       "name": "Phasmophobia",
       "russian": "Присутствует",
       "control": [
-        "Телепорт",
-        "Стоя"
+        "Телепорт"
       ],
       "violation": [
         "Сверхъестественное"
