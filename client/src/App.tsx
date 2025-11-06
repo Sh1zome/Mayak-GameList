@@ -36,10 +36,11 @@ interface ArenaGame extends Omit<
 }
 
 const App: React.FC = () => {
-  const [currentSection, setCurrentSection] = useState<'zona' | 'arena' | 'autosim' | null>(null);
+  const [currentSection, setCurrentSection] = useState<'zona' | 'arena' | 'autosim' | 'ps' | null>(null);
   const [zonaGames, setZonaGames] = useState<ZonaGame[]>([]);
   const [arenaGames, setArenaGames] = useState<ArenaGame[]>([]);
   const [autoGames, setAutoGames] = useState<ZonaGame[]>([]);
+  const [psGames, setPsGames] = useState<ZonaGame[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedGame, setSelectedGame] = useState<ZonaGame | ArenaGame | null>(null);
@@ -54,6 +55,7 @@ const App: React.FC = () => {
     fetch(`${import.meta.env.BASE_URL}games.json`).then(res => res.json()).then(data => setZonaGames(data.games || []));
     fetch(`${import.meta.env.BASE_URL}arena.json`).then(res => res.json()).then(data => setArenaGames(data.games || []));
     fetch(`${import.meta.env.BASE_URL}autosim.json`).then(res => res.json()).then(data => setAutoGames(data.games || []));
+    fetch(`${import.meta.env.BASE_URL}ps.json`).then(res => res.json()).then(data => setPsGames(data.games || []));
   }, []);
 
   useEffect(() => {
@@ -68,7 +70,7 @@ const App: React.FC = () => {
   }, [selectedGame]);
 
   // ✅ Скролл вверх при смене вкладки (плавно)
-  const handleSectionChange = (section: 'zona' | 'arena' | 'autosim') => {
+  const handleSectionChange = (section: 'zona' | 'arena' | 'autosim' | 'ps') => {
     setFade('out');
     setTimeout(() => {
       setCurrentSection(section);
@@ -104,8 +106,10 @@ const App: React.FC = () => {
 
   const filteredGames = () => {
     let list: (ZonaGame | ArenaGame)[] =
-      currentSection === 'zona' ? zonaGames :
-      currentSection === 'arena' ? arenaGames : autoGames;
+      currentSection === 'zona' ? zonaGames : 
+      currentSection === 'arena' ? arenaGames : 
+      currentSection === 'autosim' ? autoGames :
+      psGames
     if (searchQuery)
       list = list.filter(g => g.name.toLowerCase().includes(searchQuery.toLowerCase()));
     if (selectedTags.length)
@@ -146,7 +150,7 @@ const App: React.FC = () => {
 
   // ✅ Добавлен scrollTo при открытии игры
   const renderGameCard = (game: ZonaGame) => {
-    const isZonaOrAuto = currentSection === 'zona' || currentSection === 'autosim';
+    const isZonaOrAuto = currentSection === 'zona' || currentSection === 'autosim' || currentSection === 'ps';
     const color =
       game.russian === 'Присутствует' ? '#25d366' :
       game.russian === 'Есть субтитры' ? '#ffcc00' :
@@ -189,6 +193,7 @@ const App: React.FC = () => {
           <button onClick={() => handleSectionChange('zona')}>VR-ЗОНА</button>
           <button onClick={() => handleSectionChange('arena')}>VR-АРЕНА</button>
           <button onClick={() => handleSectionChange('autosim')}>АВТОСИМУЛЯТОР</button>
+          <button onClick={() => handleSectionChange('ps')}>PS ИГРЫ</button>
         </nav>
 
         <button
@@ -210,7 +215,13 @@ const App: React.FC = () => {
         {!currentSection && !selectedGame && (
           <div className="intro">
             <img src={`${import.meta.env.BASE_URL}img/Logo.svg`} alt="Лого" />
-            <h1>Библиотека VR игр</h1>
+            <h1>Список установленных игр</h1>
+            {isMobile && (
+              <button
+                className={`burger ${burgerOpen ? 'open' : ''}`}
+                onClick={() => setBurgerOpen(!burgerOpen)}
+              >Выбрать зону</button>
+            )}
           </div>
         )}
 
@@ -234,7 +245,8 @@ const App: React.FC = () => {
                 {getUniqueTags(
                   currentSection === 'zona' ? zonaGames :
                   currentSection === 'arena' ? arenaGames :
-                  autoGames
+                  currentSection === 'autosim' ? autoGames :
+                  psGames
                 ).map(tag => (
                   <button
                     key={tag}
@@ -294,26 +306,39 @@ const App: React.FC = () => {
 
             <div className="slider-container">
               <div className="main-slide">
-                {screenshotIndex === 0 ? (
+                {selectedGame.trailer && screenshotIndex === 0 ? (
                   <video
                     controls
                     src={selectedGame.trailer}
                     poster={selectedGame.mobileCardHeader}
                   />
                 ) : (
-                  <img src={selectedGame.screenshots[screenshotIndex - 1]} alt="screenshot" />
+                  <img
+                    src={
+                      selectedGame.trailer
+                        ? selectedGame.screenshots[screenshotIndex - 1]
+                        : selectedGame.screenshots[screenshotIndex]
+                    }
+                    alt="screenshot"
+                  />
                 )}
               </div>
 
               <div className="thumbs" ref={thumbsRef}>
                 <button className="arrow left" onClick={prevScreenshot}>❮</button>
+
                 <div className="thumbs-inner">
-                  {[selectedGame.trailer, ...selectedGame.screenshots].map((src, i) => (
+                  {(selectedGame.trailer
+                    ? [selectedGame.trailer, ...selectedGame.screenshots]
+                    : selectedGame.screenshots
+                  ).map((src, i) => (
                     <img
                       key={i}
-                      src={i === 0 ? selectedGame.cardHeader : src}
+                      src={selectedGame.trailer && i === 0 ? selectedGame.cardHeader : src}
                       alt={`preview-${i}`}
-                      className={`thumb-item ${i === screenshotIndex ? 'active' : ''}`}
+                      className={`thumb-item ${
+                        i === screenshotIndex ? "active" : ""
+                      }`}
                       onClick={() => {
                         setScreenshotIndex(i);
                         requestAnimationFrame(() => scrollThumbIntoView(i));
@@ -321,6 +346,7 @@ const App: React.FC = () => {
                     />
                   ))}
                 </div>
+
                 <button className="arrow right" onClick={nextScreenshot}>❯</button>
               </div>
             </div>
@@ -335,7 +361,8 @@ const App: React.FC = () => {
             {getUniqueTags(
               currentSection === 'zona' ? zonaGames :
               currentSection === 'arena' ? arenaGames :
-              autoGames
+              currentSection === 'autosim' ? autoGames :
+              psGames
             ).map(tag => (
               <button
                 key={tag}
