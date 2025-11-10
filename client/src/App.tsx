@@ -36,11 +36,12 @@ interface ArenaGame extends Omit<
 }
 
 const App: React.FC = () => {
-  const [currentSection, setCurrentSection] = useState<'zona' | 'arena' | 'autosim' | 'ps' | null>(null);
+  const [currentSection, setCurrentSection] = useState<'zona' | 'arena' | 'autosim' | 'ps' | 'pc' | null>(null);
   const [zonaGames, setZonaGames] = useState<ZonaGame[]>([]);
   const [arenaGames, setArenaGames] = useState<ArenaGame[]>([]);
   const [autoGames, setAutoGames] = useState<ZonaGame[]>([]);
   const [psGames, setPsGames] = useState<ZonaGame[]>([]);
+  const [pcGames, setPcGames] = useState<ZonaGame[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedGame, setSelectedGame] = useState<ZonaGame | ArenaGame | null>(null);
@@ -52,10 +53,11 @@ const App: React.FC = () => {
   const thumbsRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}games.json`).then(res => res.json()).then(data => setZonaGames(data.games || []));
+    fetch(`${import.meta.env.BASE_URL}vr.json`).then(res => res.json()).then(data => setZonaGames(data.games || []));
     fetch(`${import.meta.env.BASE_URL}arena.json`).then(res => res.json()).then(data => setArenaGames(data.games || []));
     fetch(`${import.meta.env.BASE_URL}autosim.json`).then(res => res.json()).then(data => setAutoGames(data.games || []));
     fetch(`${import.meta.env.BASE_URL}ps.json`).then(res => res.json()).then(data => setPsGames(data.games || []));
+    fetch(`${import.meta.env.BASE_URL}pc.json`).then(res => res.json()).then(data => setPcGames(data.games || []));
   }, []);
 
   useEffect(() => {
@@ -70,7 +72,7 @@ const App: React.FC = () => {
   }, [selectedGame]);
 
   // ✅ Скролл вверх при смене вкладки (плавно)
-  const handleSectionChange = (section: 'zona' | 'arena' | 'autosim' | 'ps') => {
+  const handleSectionChange = (section: 'zona' | 'arena' | 'autosim' | 'ps' | 'pc') => {
     setFade('out');
     setTimeout(() => {
       setCurrentSection(section);
@@ -109,7 +111,8 @@ const App: React.FC = () => {
       currentSection === 'zona' ? zonaGames : 
       currentSection === 'arena' ? arenaGames : 
       currentSection === 'autosim' ? autoGames :
-      psGames
+      currentSection === 'ps' ? psGames :
+      pcGames
     if (searchQuery)
       list = list.filter(g => g.name.toLowerCase().includes(searchQuery.toLowerCase()));
     if (selectedTags.length)
@@ -150,7 +153,7 @@ const App: React.FC = () => {
 
   // ✅ Добавлен scrollTo при открытии игры
   const renderGameCard = (game: ZonaGame) => {
-    const isZonaOrAuto = currentSection === 'zona' || currentSection === 'autosim' || currentSection === 'ps';
+    const isZonaOrAuto = currentSection === 'zona' || currentSection === 'autosim' || currentSection === 'ps' || currentSection === 'pc';
     const color =
       game.russian === 'Присутствует' ? '#25d366' :
       game.russian === 'Есть субтитры' ? '#ffcc00' :
@@ -190,10 +193,11 @@ const App: React.FC = () => {
         </div>
 
         <nav className={`nav ${burgerOpen ? 'open' : ''}`}>
+          <button onClick={() => handleSectionChange('pc')}>ПК-ЗОНА</button>
+          <button onClick={() => handleSectionChange('ps')}>PS ИГРЫ</button>
           <button onClick={() => handleSectionChange('zona')}>VR-ЗОНА</button>
           <button onClick={() => handleSectionChange('arena')}>VR-АРЕНА</button>
           <button onClick={() => handleSectionChange('autosim')}>АВТОСИМУЛЯТОР</button>
-          <button onClick={() => handleSectionChange('ps')}>PS ИГРЫ</button>
         </nav>
 
         <button
@@ -246,7 +250,8 @@ const App: React.FC = () => {
                   currentSection === 'zona' ? zonaGames :
                   currentSection === 'arena' ? arenaGames :
                   currentSection === 'autosim' ? autoGames :
-                  psGames
+                  currentSection === 'ps' ? psGames :
+                  pcGames
                 ).map(tag => (
                   <button
                     key={tag}
@@ -362,7 +367,8 @@ const App: React.FC = () => {
               currentSection === 'zona' ? zonaGames :
               currentSection === 'arena' ? arenaGames :
               currentSection === 'autosim' ? autoGames :
-              psGames
+              currentSection === 'ps' ? psGames :
+              pcGames
             ).map(tag => (
               <button
                 key={tag}
