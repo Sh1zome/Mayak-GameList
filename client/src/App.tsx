@@ -117,7 +117,7 @@ const App: React.FC = () => {
       list = list.filter(g => g.name.toLowerCase().includes(searchQuery.toLowerCase()));
     if (selectedTags.length)
       list = list.filter(g => selectedTags.every(tag => g.tags.includes(tag)));
-    return list;
+    return list.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
   };
 
   const nextScreenshot = () => {
@@ -193,10 +193,10 @@ const App: React.FC = () => {
         </div>
 
         <nav className={`nav ${burgerOpen ? 'open' : ''}`}>
-          <button onClick={() => handleSectionChange('pc')}>ПК-ЗОНА</button>
+          <button onClick={() => handleSectionChange('pc')}>ПК ЗОНА</button>
           <button onClick={() => handleSectionChange('ps')}>PS ИГРЫ</button>
-          <button onClick={() => handleSectionChange('zona')}>VR-ЗОНА</button>
-          <button onClick={() => handleSectionChange('arena')}>VR-АРЕНА</button>
+          <button onClick={() => handleSectionChange('zona')}>VR ЗОНА</button>
+          <button onClick={() => handleSectionChange('arena')}>VR АРЕНА</button>
           <button onClick={() => handleSectionChange('autosim')}>АВТОСИМУЛЯТОР</button>
         </nav>
 
