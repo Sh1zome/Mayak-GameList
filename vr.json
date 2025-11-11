@@ -1,0 +1,1201 @@
+{
+  "games": [
+    {
+      "id": "fe55",
+      "name": "Arizona Sunshine Remake",
+      "russian": "Присутствует",
+      "control": ["Отклонение стиков", "Телепорт"],
+      "violation": [
+        "Жестокость",
+        "Зомби",
+        "Много крови"
+      ],
+      "age": "16+",
+      "difficulty": 3,
+      "tags": [
+        "С другом",
+        "Стрелялка",
+        "Зомби",
+        "Кооператив"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_36e410907c892275702b2310056bcd04e58384db.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_29553433f4e1b48062c689e8575c5f5a977f59cd.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_7422e46bfc2310d4131e4af361d15a7edb21ecba.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_5aefc7c821a1f9088f0a007da51e6902cd7f7119.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_cbf8b0847ccb320d3936d49f8637e9b4c3db9f6d.jpg"
+      ],
+      "description": "Arizona Sunshine Remake — это обновленная версия оригинального VR-шутера про зомби, вышедшая в 2024 году. Ремейк предлагает полностью переработанную графику, улучшенный геймплей и новую систему нанесения урона, включая контент из всех оригинальных DLC. Игроки могут проходить одиночную кампанию или играть в кооперативном режиме с тремя другими игроками, исследуя постапокалиптическую Аризону. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/257066228/movie_max.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/e4769f8065fd9e7f9b07351116306712d9350ed7/capsule_616x353.jpg?t=1732789729"
+    },
+    {
+      "id": "e6a0",
+      "name": "Phasmophobia",
+      "russian": "Присутствует",
+      "control": [
+        "Телепорт"
+      ],
+      "violation": [
+        "Сверхъестественное"
+      ],
+      "age": "16+",
+      "difficulty": 2,
+      "tags": [
+        "С другом",
+        "Пугающие",
+        "Кооператив",
+        "Исследование"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/371bce1def08fec2cebf6281a3e2ee12804aa353/ss_371bce1def08fec2cebf6281a3e2ee12804aa353.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/7322b8bb35934e5f07da19890cd4eae834dcf8f1/ss_7322b8bb35934e5f07da19890cd4eae834dcf8f1.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/a0385cab46f1e6a056c90298a15877d989af2c93/ss_a0385cab46f1e6a056c90298a15877d989af2c93.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/4c5c8c8dd54df6c9a157491e6611ede792e97526/ss_4c5c8c8dd54df6c9a157491e6611ede792e97526.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/241a8c4fdd0ec97dac875e6a5844072ee7e0dd06/ss_241a8c4fdd0ec97dac875e6a5844072ee7e0dd06.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/e0b028b74f800b3430d38241d094298084a72d65/ss_e0b028b74f800b3430d38241d094298084a72d65.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/f7377b2dd2e388a76ae48f398630b4b4e5144248/ss_f7377b2dd2e388a76ae48f398630b4b4e5144248.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/acdac8ad19ea0b6e590289be19d8dfe8583755e0/ss_acdac8ad19ea0b6e590289be19d8dfe8583755e0.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/ss_dcf3fde71a8104c068d9fd1c122361af9677737a.jpg"
+      ],
+      "description": "Phasmophobia — это кооперативный психологический хоррор для 1–4 игроков, в котором вы и ваша команда охотников за привидениями исследуете дома с паранормальной активностью, чтобы собрать доказательства и определить тип призрака. Игра использует технологию распознавания речи: призраки реагируют на голосовые команды игроков. Игровой процесс включает использование разнообразного оборудования для охоты за привидениями (ЭМП-датчики, спиритические доски, камеры) и выживание в условиях нарастающей агрессии призрака. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256776660/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/739630/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/739630/capsule_616x353.jpg"
+    },
+    {
+      "id": "40d1",
+      "name": "FIVE NIGHTS AT FREDDY'S: HELP WANTED",
+      "russian": "Есть субтитры",
+      "control": [
+        "Сидя",
+        "Стоя"
+      ],
+      "violation": [
+        "Скримеры"
+      ],
+      "age": "14+",
+      "difficulty": 2,
+      "tags": [
+        "Пугающие"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/732690/ss_722001c2ea40f40bf05ba609d1d67a39bf3abef5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/732690/ss_0ed3763382635f065967e8b12a995fa32426a09f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/732690/ss_0bbddd811fb57f2a40ba1f5776e2bfb7b3a96d4f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/732690/ss_1a48eb095e69c2e090f797bf0b7cc87ba8365bea.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/732690/ss_d76fe22860b30d61b4cf25aa23ecc4f2db40734b.jpg"
+      ],
+      "description": "Five Nights at Freddy's: Help Wanted – это VR-игра в жанре хоррор с элементами выживания, представляющая собой сборник мини-игр во вселенной Five Nights at Freddy's. Игрок выполняет различные задания, от ремонта вентиляционных систем до наблюдения за пиццерией, избегая при этом атак смертоносных аниматроников. В игре можно как играть в виртуальной реальности, так и без VR-гарнитуры, хотя погружение будет ниже. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256751840/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/732690/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/732690/capsule_616x353.jpg"
+    },
+    {
+      "id": "5a9c",
+      "name": "Arizona Sunshine 2",
+      "russian": "Отсутствует",
+      "control": [
+        "Телепорт",
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость",
+        "Много крови",
+        "Зомби"
+      ],
+      "age": "16+",
+      "difficulty": 2,
+      "tags": [
+        "С другом",
+        "Стрелялка",
+        "Зомби",
+        "Кооператив"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_baa449521f523bf58c271c4ee905e9a746cf3c83.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_11adbb93c9017a6426e2a5f91fa07ed3bb9f15c8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_1a575cf57581bef566de21aecfd922c2ca251237.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_7aa6a2eaf3896c116859d086530127eb79f72b53.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_5d54565c77bd1907c0324e112bcbd469412c14a0.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_f17ce792fb07f13994791fd070251be74ab0934c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_9e509d54d5e60ad2884f1659507fc155cbb67f74.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_f33ba172a5ba98790d28ff43b21ff8b4f15892e8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_905cef7fe9a2b881d9fd84f5deeef87cec7d2aae.jpg"
+      ],
+      "description": "Добро пожаловать обратно в поцелованную солнцем зомбированную Аризону. Рассказанное безошибочным высказыванием нашего главного героя с темным юмором, Arizona Sunshine 2 отправляет вас в новое приключение, разбросанное конечностями, в поисках ответов. В постапокалиптическом мире, где каждая пуля имеет значение, ощутите острые ощущения от реалистичного боя, когда вы обладаете абсолютно новым и любимым оружием фанатов - от дробовиков до мачете и огнеметов.",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256978500/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1540210/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1540210/capsule_616x353.jpg"
+    },
+    {
+      "id": "6694",
+      "name": "Beat Saber",
+      "russian": "Отсутствует",
+      "control": [
+        "Стоя"
+      ],
+      "violation": [],
+      "age": "12+",
+      "difficulty": 1,
+      "tags": [
+        "Реакция",
+        "Музыка",
+        "Аркада"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_7df971fd7781d69dc455b15a400a6973ed7d3f36.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_e1b161014deff483fa6bd8147a102b83b053e201.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_b39d40cd4c53c9fd737ffde535cfdffc17662862.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_1881ae4f153faf0d1ccecca60fbdac5b43ad57eb.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_114dc9a9f27666b2d56801ba49a1db8fa202b6ee.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_b65444cc4513f34bd41fa6b0fe96cf11d94fea8d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_542d092f42c779c866167bec05c1da488bcd91f8.jpg"
+      ],
+      "description": "Beat Saber — это ритмическая VR-игра, в которой игроки с помощью световых мечей разбивают летящие на них кубы в такт музыке. Успех зависит от точности и силы удара, а также от правильного направления, при этом необходимо уклоняться от препятствий, таких как стены и бомбы. Игра сочетает в себе развлечение, физическую активность и улучшение когнитивных способностей, таких как внимание и наблюдение. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256736673/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/620980/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/620980/capsule_616x353.jpg"
+    },
+    {
+      "id": "689c",
+      "name": "BONELAB",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["Жестокость"],
+      "age": "16+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Исследование",
+        "Приключение",
+        "Песочница"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592190/ss_b269d1801b5f8d7e6c1dac62b3066c87692df2c1.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592190/ss_444851cf308ece25a5a81c575d62aa971dc6985f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592190/ss_294edcd9127d27756a66971eee601419112cf788.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592190/ss_554cef3a2a013f0f9be7d8cc4e8464b19c3da209.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1592190/ss_0eae5108f110988324875c3f76020077d52b624d.jpg"
+      ],
+      "description": "BONELAB — это экспериментальная физическая игра в жанре экшн и симулятор виртуальной реальности. В ней игроки исследуют таинственную лабораторию, используя реалистичную физику, сражаясь с врагами и решая головоломки, а также погружаясь в сюжетную линию. Игра предлагает как сюжетный режим, так и множество других режимов для исследования и хаоса. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256908381/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1592190/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1592190/capsule_616x353.jpg"
+    },
+    {
+      "id": "43e8",
+      "name": "BONEWORKS",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["Жестокость"],
+      "age": "16+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Приключение",
+        "Исследование"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_f50e0ac29c65ceba9a6e61faa81751229b493a4c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_8eba59114cbd834623ac42c6b27b5c6ad45622bf.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_784f12a1c9818045adef23c4b713f3039d803e48.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_4b63ee11e347ea8d431425405c2af518d905d4e3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_85997da66bf40cb0172a47b001a062bb9e7fd1ed.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_c573fac02a75d68f192513138f1b56573206d490.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_96714542dd8a76382e017c5552eb4c6badee107e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_bdc6d53cbcac1f46db97d040c3e74e5b4bc078db.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_8d38fb5add33a978a4fde3c5a3b874fd61e4cb40.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_6b3603f8cb11c47fa7b68f00a17ae8adba4c4a1a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/823500/ss_3d3eed847522cdd070393f281c5b88250e290993.jpg"
+      ],
+      "description": "BONEWORKS — это экспериментальный шутер-головоломка для VR, разработанный Stress Level Zero. В ней игроки управляют директором по кибербезопасности Артуром Фордом, который оказывается в виртуальном мире MythOS корпорации Monogon. Игра известна своей продвинутой физической моделью, реалистичным взаимодействием с объектами, множеством оружия и возможностью творческого подхода к решению задач и боевым действиям. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256769510/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/823500/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/823500/capsule_616x353.jpg"
+    },
+    {
+      "id": "3f61",
+      "name": "Bugsnax",
+      "russian": "Есть субтитры",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 1,
+      "tags": [
+        "Приключение",
+        "Исследование",
+        "Семейная",
+        "Головоломка"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_20dd7968ecdf3b8d083b76b74addfe95c17e3c86.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_2639e2a47c9e80542afffda93555358a7d9aad6b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_de0ec113aec459f07f240c638bf23d1a15356485.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_68b9e83e04c6a5ecfd7baba1acd1906b816aaec6.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_feac75a88b66bf886e1ededd7ea6a248c91e0e55.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_2c0fff4b73e3f0a963303240feadb2cffff080c2.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_f82701e1e5dae5357a258b9373eab1134d1c3eaa.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674140/ss_056197436b6452635659e01104624d8e51293019.jpg"
+      ],
+      "description": "Bugsnax — это приключенческая игра с элементами головоломки, в которой вы играете за журналиста, прибывшего на таинственный остров, чтобы раскрыть тайну исчезновения исследовательницы Лизберт и её команды. Основной геймплей включает в себя исследование острова, поиск и поимку загадочных существ-«жуконямок» (Bugsnax), которые являются наполовину насекомыми, наполовину едой. Поимка жуконямок нужна для того, чтобы помочь расследовать загадку острова, а также для того, чтобы вернуть пропавших жителей и восстановить их поселение. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256883893/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/674140/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/674140/capsule_616x353.jpg"
+    },
+    {
+      "id": "698a",
+      "name": "Angry Birds VR: Isle of Pigs",
+      "russian": "Отсутствует",
+      "control": ["Стоя"],
+      "violation": [],
+      "age": "6+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Аркада",
+        "Семейная"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_35db98cf4e9dfff763e590f2b9fa11b2a0516bdc.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_448d84a0625958d92f46669884bea2c75507e662.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_36c8b4ce9fde9743a46e0fbf900877e23582a008.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_0d78273a74d57ec65b1ef5373a4669fe0e8ef1f3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_ef6911eba7494ddfdf5389507ccb3bec661688a6.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_5ed6d7d62edfabf7ec4fdeb765d6d63cbf90d424.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_fb37bc5baaede5901285281da1c14022dd2b4e76.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_8b0dc03edd29c3c78707c9d64c1c5ec0f1c7ccea.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_d82ad7cd79f9f7d5733c02a3a5b406b7abc02a8e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_eda3457cf75a0ecb7c23cbbdd5359d6b2e4b523e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1001140/ss_5e59b242189fb92849d6188a81d70a18b535eaa2.jpg"
+      ],
+      "description": "Angry Birds VR: Isle of Pigs — это VR-игра, основанная на классической серии Angry Birds, где игроки стреляют птицами из рогатки по конструкциям свиней в виртуальной реальности. Игра предлагает более 100 уровней, возможность исследовать остров свиней и разрушать их постройки в красочном 3D-окружении. Игроки могут использовать как классический геймплей, так и уникальные способности птиц, а также создавать собственные уровни для обмена с другими игроками. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256742295/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1001140/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1001140/capsule_616x353.jpg"
+    },
+    {
+      "id": "3f12",
+      "name": "Creed: Rise to Glory",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "12+",
+      "difficulty": 2,
+      "tags": [
+        "С другом",
+        "Драки",
+        "Спорт"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/804490/ss_5f84e26bb5e0450479f6069088494889f26bbc69.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/804490/ss_bc1786dd27a8ecf50132159119e3c38679d3bd48.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/804490/ss_24d84a880df5910f140125a6ea16c6f91e13ce65.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/804490/ss_a5adabb58a2740043b6507bb3ff36e3841483eb2.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/804490/ss_523073b4ca6a23b0d415c9bc6adec99dc58751e8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/804490/ss_0c8de6e0342a7215d8f94f27c7045c2222d5676d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/804490/ss_c15e2ae5663f1cafb610658dc08bb00070940c8c.jpg"
+      ],
+      "description": "Creed: Rise to Glory — это VR-симулятор бокса, в котором игроки выступают в роли Адониса Крида, проходя путь от аутсайдера до чемпиона. Игра использует технологию Phantom Melee, имитирующую физические ощущения ударов и усталости, а также включает сюжетный режим, тренировки и онлайн-матчи с другими игроками. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256730298/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/804490/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/804490/capsule_616x353.jpg"
+    },
+    {
+      "id": "de67",
+      "name": "Containment Initiative 2",
+      "russian": "Отсутствует",
+      "control": [
+        "Стоя",
+        "Телепорт",
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Много крови",
+        "Жестокость"
+      ],
+      "age": "14+",
+      "difficulty": 2,
+      "tags": [
+        "С другом",
+        "Стрелялка",
+        "Кооператив"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_ca470cdf8be716b4b08b2e14333b112e4cca0d3c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_b66828682edaf60dcc36b67bc0c486cf76bc0f5e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_2c8da0255dbd5990b960ebc643781237736f870e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_5ad484514eb499db061787c4144bdb36c4ab936f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_6a1e13a18ec5baa91c387f56f831738fbc949df3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_291b172ab623784217a784f35f128ac545a9081f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_606dd30407e12eef4c70300ae6e5446cb8e3f55e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_5bc77de56c419e7dce1d3cba4ca2f053b01cab34.jpg"
+      ],
+      "description": "Containment Initiative 2 — это локальный асимметричный кооперативный VR-шутер для двоих на одном ПК, где один игрок в VR-шлеме отстреливает зомби, а второй, используя мышь и клавиатуру, прикрывает его. Игроки исследуют локации, собирают ресурсы и оружие, чтобы выживать в апокалипсисе. В игре реалистичное оружие, система прогрессии и командное взаимодействие, где один игрок может двигаться и взаимодействовать с предметами, пока второй обеспечивает огневую поддержку. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256902319/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/3002560/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/3002560/capsule_616x353.jpg"
+    },
+    {
+      "id": "cf78",
+      "name": "Cooking Simulator",
+      "russian": "Присутствует",
+      "control": [
+        "Стоя",
+        "Отклонение стиков",
+        "Телепорт"
+      ],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 1,
+      "tags": [
+        "Симулятор"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/bd206b5a1733d1ec89ee9567c69ecaae2716410e/ss_bd206b5a1733d1ec89ee9567c69ecaae2716410e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/3ad1a93350548a02ff1ee15fc616f352c47e120a/ss_3ad1a93350548a02ff1ee15fc616f352c47e120a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/4253e3be6b07c6baf98afa86743a458f20f2de95/ss_4253e3be6b07c6baf98afa86743a458f20f2de95.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/b615e02f2209db00dc16cc26f706d66b5fabbbd8/ss_b615e02f2209db00dc16cc26f706d66b5fabbbd8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/777251288163964d52643b9560b7219c7341ebda/ss_777251288163964d52643b9560b7219c7341ebda.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/22d9911c4936deccf14db981fbbaf062e6e19207/ss_22d9911c4936deccf14db981fbbaf062e6e19207.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/4e4479e08048f4649b962a4f781cc8aa74d49c33/ss_4e4479e08048f4649b962a4f781cc8aa74d49c33.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/e9f04bce0d936ccd52cc56e8369fc35ab5026e70/ss_e9f04bce0d936ccd52cc56e8369fc35ab5026e70.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358140/9cc4b50c13cd7eee34940b3677764851e0e5828d/ss_9cc4b50c13cd7eee34940b3677764851e0e5828d.jpg"
+      ],
+      "description": "Cooking Simulator VR — это симулятор кухни в виртуальной реальности, где игроки могут стать шеф-поваром, готовя блюда по реалистичным рецептам или просто играя с физикой и ингредиентами. Игра предлагает режим карьеры с прогрессом в ресторане и режим «песочницы» для свободного творчества или хаоса. В игре доступно более 140 ингредиентов, множество инструментов и около 100 рецептов, а также множество предметов для взаимодействия, таких как ножи, которые можно бросать, или плиты, которые можно поджигать. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256844273/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/641320/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/641320/capsule_616x353.jpg"
+    },
+    {
+      "id": "f26d",
+      "name": "Crossfire: Sierra Squad",
+      "russian": "Есть субтитры",
+      "control": [
+        "Стоя",
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "16+",
+      "difficulty": 1,
+      "tags": [
+        "Стрелялка"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636030/ss_e7cd13bfdf5ef121e0e56c32ca6412332ce584a5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636030/ss_df8af13d71eec4800ac95f7b102989b9a6196b48.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636030/ss_7acd9e8e3450e2ff098f18a86f8cef6f3068856a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636030/ss_479ee4c841d75ee0046cb0a1af051c43b73bc960.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636030/ss_690bf6904adde94f179a62cb365e045a964f2016.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636030/ss_f0596d71379ab6ca305bfdf9d45c49f763eba239.jpg"
+      ],
+      "description": "Crossfire: Sierra Squad — это аркадный VR-шутер для PS VR2 и ПК с поддержкой SteamVR, где игрок возглавляет элитный отряд Global Risk в борьбе против конкурирующей фракции Black List. В игре представлено более 60 миссий в одиночном и кооперативном режимах (до 4 игроков). Особенности включают 39 видов оружия, 17 типов врагов, сражения с транспортом и улучшенную механику прицеливания. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256966515/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1636030/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1636030/capsule_616x353.jpg"
+    },
+    {
+      "id": "7041",
+      "name": "Elven Assassin",
+      "russian": "Отсутствует",
+      "control": [
+        "Стоя",
+        "Отклонение стиков"
+      ],
+      "violation": ["-"],
+      "age": "12+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Приключение"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_c1693918ec2c375bbef227cb09111b6a711fc5b5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_70ad5da84cbc5cec3f70f28e46b6567fffc4f84b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_01f7c4ef499f45d9ce879b90fc748341ee6d2092.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_00f996582960fe99a539255b3b6bd2e8aad34592.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_6882b0c25eebfdb224fefdc7c921521cd0db09eb.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_faf46bc676ae71af797c4a07ea2119916f20995d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_9130c29bb6c1afefab18197ea243f5fdd200a872.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_b73ce654002384c157bf77bc3469bffb12fe8648.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_779f89bea4ddd9af4c0a9c484fbb87235a3ea3b4.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_712e349a94e66fbf4a21cec411f96b1861f38d96.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_f703ad5c9f2a5ef3cd9f7a99852e7c60a5806f2d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_53df55b4e38cc39a49db3f2b25180b6e5b28cf90.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_d8fd6b57f81de371a701009545c1d6f39233438d.jpg"
+      ],
+      "description": "«Elven Assassin» — это VR-аркадный шутер с кооперативным и PvP-режимом, где игроки в роли эльфов-лучников обороняют замок от волн врагов (орков, драконов, великанов). Игра известна простотой управления, подходит для новичков и предлагает реалистичную имитацию стрельбы из лука, а также возможность использовать магические способности. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256729927/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/503770/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/503770/capsule_616x353.jpg"
+    },
+    {
+      "id": "1269",
+      "name": "I Am Cat",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 1,
+      "tags": [
+        "Симулятор",
+        "Аркада",
+        "Приключение",
+        "Семейная"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3016840/ss_5eb307ef1cf65d05ed49d335c4c62e60f428ff6a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3016840/ss_b46a7e32bbc46e3e2141b2bd7f14d549d5b0e900.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3016840/ss_0840749f348f4ce2748bb1a3556e8a9a7131dc34.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3016840/ss_311fff8f5a1b1732880c35b44a18daa4e96464af.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3016840/ss_2a9a3a714a24ca313a41cb4ffa2af690af0355ca.jpg"
+      ],
+      "description": "I Am Cat — уникальная игра в виртуальной реальности, не имеющая аналогов в мире! Это песочница-приключение, в которой вы становитесь кошкой и отправляетесь в увлекательное путешествие, полное разнообразия и захватывающих открытий.",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/257078270/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/3016840/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/3016840/capsule_616x353.jpg"
+    },
+    {
+      "id": "f64a",
+      "name": "GORN",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость",
+        "Много крови"
+      ],
+      "age": "16+",
+      "difficulty": 4,
+      "tags": [
+        "Драки"
+        
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_ab402eafb11be1c2cbf2e39e94ea272eef635fe6.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_19ab825f7569b4ec5135d218de382fe042f431e9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_0e002aec5936b1fc51d978301111b29240441d6b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_05e2ff40c1cd01f4bc2367753588649dc9a8d5c7.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_73cfe2650690819db06eb2e1f465ab46064d2121.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_b3b1b801adbe2b8444df24e9634b0f95644fcbc5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_096bfffa969639a6b24f71351ed1cb5399d34cc5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_19e3595d01114511d0b12be17b5f48407e20d6fa.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_83736eeb7c20ed7489ebe82036307137daf23a5a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578620/ss_9994699034a7239581af5bde62383aeaf378dc74.jpg"
+      ],
+      "description": "Gorn — это уморительно-жестокий VR-экшен на тему гладиаторских боев. Он идеально подходит для того, чтобы выпустить пар, разорвав на куски пару десятков карикатурных супер-мускулистых противников. То, что происходит на арене во время игры в Gorn, можно назвать комедийным ультра-насилием — во все стороны летят тела, отрубленные конечности и даже глазные яблоки. Пожалуй, ни в одном другом VR-экшене кровавые бои не реализованы настолько весело и без единого намека на реалистичную жестокость. То, что нужно, чтобы расслабиться после напряженного рабочего дня или интересно провести день рождения!",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256756546/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/578620/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/578620/capsule_616x353.jpg"
+    },
+    {
+      "id": "f134",
+      "name": "GORN 2",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость",
+        "Много крови"
+      ],
+      "age": "16+",
+      "difficulty": 4,
+      "tags": [
+        "Драки"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_94dbcb951af56ecbd3fa3dfc801ed1c0a235b92f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_b2e2276083ac83302ead0b5e7e8eea1401668626.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_ef5c22a0ec6f9a135e3072afb4589a0665550780.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_beb624b7bbdf64ef0528aedb7cf04c4775ba78f9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_1989ec0c91bff00e22d42c06a013bb3f58d60e95.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_2f0678ce637505ddf494aef52aa91ee5a2277bfd.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_fca7133c7b7597ac901b1d0e52af6581d723343f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_5655d63cbe98d953471255f2a2eff1493a090fe3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_b87f7a7634dfad214ac4183d8721abfaa99e0c92.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_655d9a89061c15b1a2377c9134c306ff12ceb76a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_693b31a809ce25ed5c3c0e1f450bb1091ea7475d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_8c387e2bee465e7999879f0fdfc3071bb36507be.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_c8a3e9d671ebd7eb14168b826f84cfa10609661d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_7d029106f74cf8e7695bfb5df03410d4bf7e09d3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_77608597d034e4333bc03aaff657cc6e1823623b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_c028ba0df885d9d84cf763a849d93efb3d598be1.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_3f67f844059fa81c025d85e81fc6b91d4ab2ff79.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/ss_c4108c260c33ba9e3d17097550b08919f59cfa0e.jpg"
+      ],
+      "description": "GORN 2 — это симулятор гладиаторских боёв в виртуальной реальности, представляющий собой расширенную и более безумную версию первой части. Игра предлагает более масштабный экшен с улучшенной механикой боя, новым оружием (например, мясными топорами и вялыми нунчаками), ловушками (вроде гигантских шлепалок), бонусами и пятью новыми аренами. Сюжет разворачивается в небесных мирах, где игрок сражается с пятью сыновьями Бога загробного мира, чтобы стать ещё более кровожадным и нелепым гладиатором. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/257116313/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/3391450/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3391450/62604a5c504831c7c17341126580a10ed47a0bbe/capsule_616x353.jpg?t=1752836875"
+    },
+    {
+      "id": "1802",
+      "name": "Job Simulator",
+      "russian": "Отсутствует",
+      "control": [
+        "Стоя"
+      ],
+      "violation": ["-"],
+      "age": "8+",
+      "difficulty": 1,
+      "tags": [
+        "Аркада",
+        "Симулятор",
+        "Семейная"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_ff7151cab14752f2b6501c31c3c79235b79cc45a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_a1cd6f60b87da82ac6e92dee02dcb0b3aa8f5919.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_9e1beefe47e4950f97a8f917ae856f983795102b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_711e504b52d3cb37db9fdb7d572f3994424963c7.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_2598b244c665edaee010ec853ba88e806e8d2017.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_8f66ed76e8841d1dcdff6efdbae1e0ccc0c47954.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_4194c9a11c4a5923727155bd33932982b6a9e6cf.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_a0cbfa2615c99c77204c6aa01732f9cb65323dc5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_b962304b95689cd762870d72d153c79ec64a24a5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/448280/ss_2fc95abbbd2e5430c137f78fbed9dd6647c9bb22.jpg"
+      ],
+      "description": "Job Simulator — это одна из самых известных и продаваемых VR-игр за всю историю технологии. В свое время она стала всего лишь вторым проектом, разработанным специально для виртуальной реальности и добравшимся до отметки в миллион проданных копий, а с 2017 по 2019 год была самой популярной игрой для VR-системы консоли PlayStation. Job Simulator вовсе не является скучным симулятором рутинных рабочих будней, как можно было бы подумать, взглянув на ее название. Напротив, она доставляет массу веселья своими остроумными шутками и общей абсурдной атмосферой.",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256662581/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/448280/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/448280/capsule_616x353.jpg"
+    },
+    {
+      "id": "9cab",
+      "name": "Guns'n'Stories: Bulletproof VR",
+      "russian": "Присутствует",
+      "control": [
+        "Стоя"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "16+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Приключение"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_cbfdab0d75ca5420d0d8abcab2cf4a93f67f2000.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_ced63a1adfb73866bcab643f16b20bea9b6f1c0b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_b22cf56d90693135811794ebe0353307093623a5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_c3b0deba2c5653b8e0cd7b01f27d42e75d79f885.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_f8f5ccac0487a1820dafb1932672208e0a12cb91.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_915dd30b59b96b55161337c8dc3ecba74a1716c0.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_38b323f744ab812220c66e07d44513f09090189b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_2d156df124641d57f83e8a8c49f93530d1d507fc.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_0bf94c21e25e313d53e243522bb17d9e61496063.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_4fe379fad52e91e4f50617705affcc16bef487b4.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_013162c0963c9a94949f4f5a607eb05264560049.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_7f75ee6d8194454cef7c2b742606a7f7938bb8dc.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_b9fc24adc57b007eb37f46da391ead7755819f6b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_5f5fbfb4e585e42c9d6cdf42f3e0b63725a52f9a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_10797b4a0d5de1029a56b4f9fcacdc5bb2c1b49c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/685690/ss_55c412b428a68837d63bfec88d5181301a446818.jpg"
+      ],
+      "description": "Guns’n’Stories: Bulletproof VR - динамичный VR-Вестерн шутер, который полностью и без остатка погружает игроков в атмосферу странного Дикого Запада. Следуя по запутанному сюжету, вы столкнетесь с толпами грозных, но комичных врагов и сразитесь с Большими Боссами. Вам предстоит много и метко стрелять с двух рук, а также использовать укрытия и активно двигаться, уворачиваясь от пуль. Вы посетите множество атмосферных локаций и сможете опробовать обширный арсенал оружия под сопровождением из вестерн рока, шуток и циничного юмора!",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256710949/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/685690/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/685690/capsule_616x353.jpg"
+    },
+    {
+      "id": "5eab",
+      "name": "Half-Life: Alyx",
+      "russian": "Есть субтитры",
+      "control": [
+        "Отклонение стиков",
+        "Телепорт"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "17+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Приключение"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_d61365e93f20ceb5a94a1e5b2811cf504cbfa303.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_fe7066404a704aa20f7c6f251facb7aef2606bda.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_6868ae1644628f857e7df4b72a00fdf506f79c7f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_4236773ab28112613bd7d4c6282331c861bc222a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_5d228b092e93ff148e6a998c33e751fb968cc956.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_70fce3236bf252d3814f793744f648cbe35164e4.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_fcc7a64234b8b26cac3d69dfc4779dd438582f15.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_0360004603a7861cf6781d5449e641f916f1ee07.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_e5152f19710aaa91c4a4ab161785af3e1f8d850d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_ac80dfaacaade35a1da835dadd52ab420607603b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_ddc667aa2687543c0baa1a63c6bdb5fa59e0617e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/ss_4912f4c3d259a472e9898f0a7b1f819a533d2c1e.jpg"
+      ],
+      "description": "Half-Life: Alyx — это VR-игра от Valve, которая является приквелом к событиям Half-Life 2. Действие происходит между первой и второй частями серии, и вы играете за Аликс Вэнс, единственного персонажа, который может спасти человечество от оккупации инопланетной расой Альянс. Игра сочетает в себе элементы шутера от первого лица, головоломки и исследование мира, предлагая полное погружение в виртуальную реальность. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256767815/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/546560/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/546560/capsule_616x353.jpg?t=1673391297"
+    },
+    {
+      "id": "91ba",
+      "name": "Maestro",
+      "russian": "Есть субтитры",
+      "control": [
+        "Стоя"
+      ],
+      "violation": ["-"],
+      "age": "10+",
+      "difficulty": 2,
+      "tags": [
+        "Музыка"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2701700/a34e51e346c2de88d2c3e6cf0fd5e2f1374ffde1/ss_a34e51e346c2de88d2c3e6cf0fd5e2f1374ffde1.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2701700/12573497b3cbc56b7f642039ffc2d64c361fbb2c/ss_12573497b3cbc56b7f642039ffc2d64c361fbb2c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2701700/f127d542ea8b269a46da9d5ec4531c42c3d957ae/ss_f127d542ea8b269a46da9d5ec4531c42c3d957ae.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2701700/6996fbb96c5e3a6848093742f3ee67e56bc5d73d/ss_6996fbb96c5e3a6848093742f3ee67e56bc5d73d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2701700/2d79099cd547836967dd72e0e2aadd7465adfa4a/ss_2d79099cd547836967dd72e0e2aadd7465adfa4a.jpg"
+      ],
+      "description": "Maestro VR — это ритм-игра в виртуальной реальности, в которой вы становитесь дирижером симфонического оркестра, управляя им своими руками. Игра использует точное отслеживание движений для управления темпом и динамикой музыки, позволяя исполнять произведения от классики до саундтреков к фильмам. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/257032761/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1327920/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1327920/capsule_616x353.jpg"
+    },
+    {
+      "id": "6e45",
+      "name": "Moss",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["-"],
+      "age": "10+",
+      "difficulty": 1,
+      "tags": [
+        "Семейная",
+        "Приключение",
+        "Головоломка"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/846470/ss_ee5b54a46020489913939b5497ddd2247af75938.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/846470/ss_657bdcc08dc4e74c23fe39c8b3f57994bd635a57.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/846470/ss_058b6f5dfdcafbb3ebb70645e6f04e1462009cd6.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/846470/ss_fd0fbd88d7ec3e0c885b8644c1433d37dfe465eb.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/846470/ss_f6743dffc8644dc95bcd0cb2f5182e140a9cc4ee.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/846470/ss_e5b3f8b8da401a58094a6ef5893d871a087bec97.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/846470/ss_73817cb39c3fc0a74491bd4949572818d730e7da.jpg"
+      ],
+      "description": "Moss™ — динамичное приключение с элементами головоломки для одного игрока — новая игра от Polyarc, созданная специально для VR. Она сочетает классические элементы прекрасной игры — интересных персонажей, захватывающую боевую систему, исследование мира — с новыми возможностями виртуальной реальности.",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256719119/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/846470/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/846470/capsule_616x353.jpg"
+    },
+    {
+      "id": "f5bb",
+      "name": "Moss: Book II",
+      "russian": "Есть субтитры",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["-"],
+      "age": "10+",
+      "difficulty": 2,
+      "tags": [
+        "Семейная",
+        "Приключение",
+        "Головоломка"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_b5a9a8045629f32a9e9387a7d9efad0b0c3c9baf.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_7a7f1fe7b99067ff887ea4f22d65bd7af0dcba39.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_656794940f4ca799c0fac7b62d712f9323e2d500.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_f831b2ab6465589063dbb88431b24f9c276b6ab7.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_0fb32878c6fc518632129f7daa8c0975bce08bc9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_c1351961f38b2e1c5370fe02a07799b041ce2560.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_70b6d0c7d851c7465f3be404513e3ecf8c1471a6.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_0f964feaa69114c2a0574ef536a6bcc149382079.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/ss_ed65ce3dd8fc0f8351941fffbe517509cc240f65.jpg"
+      ],
+      "description": "Moss: Book II — это приключенческая VR-игра, являющаяся прямым продолжением первой части. Игроки снова помогают отважной мышке Квилл спасти мир от сил зла, которые жаждут заполучить волшебный кристалл, находящийся у нее. В сиквеле добавлены новые механики, включая создание мостов из лозы, разрушение объектов, карабканье Квилл и использование нового оружия, такого как молоток. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256911922/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/2059670/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/2059670/capsule_616x353.jpg"
+    },
+    {
+      "id": "9b4a",
+      "name": "Myst",
+      "russian": "Присутствует",
+      "control": [
+        "Телепорт",
+        "Отклонение стиков"
+      ],
+      "violation": ["-"],
+      "age": "10+",
+      "difficulty": 2,
+      "tags": [
+        "Головоломка",
+        "Приключение"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1255560/ss_5d8c01be7f86daeff25aada94b6f2defec2e487e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1255560/ss_254d4b2d3432e24df05a737fb64cc41ff1692f64.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1255560/ss_749f09c0da139a3dcd0085ff6e08e6c645ef5515.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1255560/ss_73211ba42e9e2c13ea81d8a410c3dc46093ba4fb.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1255560/ss_fdc850f5977f44b433613dc94c03b3deb3b973d1.jpg"
+      ],
+      "description": "Добро пожаловать на остров Мист — невероятно красивый, загадочный и окутанный интригами. Совершите путешествие на остров Мист и в другие потрясающие воображение укромные места, которые здесь называются «эпохами», и попытайтесь разгадать тайну, частью которой стали. Узнав, что произошло на острове, вы поймёте, что играете ключевую роль в эпической истории, конец которой ещё не написан. Исследуйте глубокие связи в этих потрясающих и сюрреалистических эпохах, раскройте историю жестокого семейного предательства и сделайте выбор, который повлияет и на вас, и на мир игры Myst. Независимая студия Cyan, создавшая любимую несколькими поколениями игроков игру Myst, выпускает новую, переосмысленную версию. Современная игра Myst создана с нуля и может похвастаться новой графикой, звуком, переосмысленным взаимодействием с объектами и даже возможностью рандомизации головоломок. В неё можно сыграть как на традиционных игровых системах и компьютерах, так и в VR-шлеме. Наконец-то поклонники Myst и новые игроки смогут насладиться как прохождением на мониторах и экранах, так и в виртуальной реальности! Исследуйте эпохи Myst в новом измерении!",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256846710/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1255560/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1255560/capsule_616x353.jpg"
+    },
+    {
+      "id": "0fea",
+      "name": "No Man's Sky",
+      "russian": "Присутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["-"],
+      "age": "12+",
+      "difficulty": 2,
+      "tags": [
+        "Выживание",
+        "Исследование",
+        "Приключение"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/71f533720e58e1fb5dd61f23388abfe4f9caa6b5/ss_71f533720e58e1fb5dd61f23388abfe4f9caa6b5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/ss_32256c21c6bfd9032debf56e1af47029e6d9f9b0.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/ss_d4884d4d208b3f6a3ecef898559da7a36102fc70.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/e7d9dd1a847bc7212a52c20bd4b4f788a2e6601b/ss_e7d9dd1a847bc7212a52c20bd4b4f788a2e6601b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/47005e90c31a62121610cbf29ce3dcc3c49dfa96/ss_47005e90c31a62121610cbf29ce3dcc3c49dfa96.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/dcd51621feaaf4c58fbe1657f0bd02e501583e17/ss_dcd51621feaaf4c58fbe1657f0bd02e501583e17.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/6a9116be4ac9f941e1c59d1e285e394357e00e56/ss_6a9116be4ac9f941e1c59d1e285e394357e00e56.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/34b544efeffeef35c43344d8e0a5ae4b9d5d8e8b/ss_34b544efeffeef35c43344d8e0a5ae4b9d5d8e8b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/ss_6db23417448ace0654d98a6ccd45e1c30521ef02.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/2a3159513cb35bd028cdf0343da64b9f4a4197d2/ss_2a3159513cb35bd028cdf0343da64b9f4a4197d2.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/59e00077f07aa2a458765117ca31929d851f1b50/ss_59e00077f07aa2a458765117ca31929d851f1b50.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/5352c315d08e3282fb925f1d5d16f96de7bf7f4d/ss_5352c315d08e3282fb925f1d5d16f96de7bf7f4d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/97b5816a0535251687587bbfd459a9277e8336b5/ss_97b5816a0535251687587bbfd459a9277e8336b5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/ss_25d50c18655c88fc9fb82965183d2abca23274cc.jpg"
+      ],
+      "description": "No Man's Sky VR — это полноценный VR-режим для игры No Man's Sky, который позволяет исследовать бесконечную процедурно генерируемую вселенную в виртуальной реальности. В игре доступны занятия, такие как выживание, исследование планет, строительство баз, сражения и торговля. Для игры требуются VR-гарнитура и поддержка отслеживания глаз для лучшей визуализации. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256932058/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/275850/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/275850/capsule_616x353.jpg"
+    },
+    {
+      "id": "3457",
+      "name": "SUPERHOT VR",
+      "russian": "Присутствует",
+      "control": [
+        "Стоя"
+      ],
+      "violation": ["-"],
+      "age": "14+",
+      "difficulty": 1,
+      "tags": [
+        "Стрелялка",
+        "Реакция"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_4b3a840f1b1865066a1723c9b1a35d20af487f1d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_6f08622e9dce0b8d03f52b249df81a7c5b293f4e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_ff098e22d95090cf6ec23cfc788a7d056f9f6705.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_10e9a16266485b0e2a8280bf87558d37306585fe.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_10d972067c6b5de3033da051046863eecd3a3f58.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_a1bdd0d675730f3902626c08253355b11b01c59a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_c7486ff53d10ccc9e54fd429c87c27635a19cb47.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_14b83b7eae84233c2428b67bb089347c187443a5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_07f4b9c86c68f88e5dcb1d71c57751ce15b6aee7.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/617830/ss_353b6e1979ef9c47ab9c2ee3ff61cd4ad015c6c7.jpg"
+      ],
+      "description": "SUPERHOT VR — это VR-шутер от первого лица, где время движется только тогда, когда движетесь вы, что превращает каждую перестрелку в стратегическую головоломку. Игроки, выступая в роли агента, уничтожают врагов, уклоняясь от пуль, используя различные предметы и оружие. Отсутствие регенерируемого здоровья и спрятанных ящиков с патронами заставляет тщательно планировать свои действия. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256739189/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/617830/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/617830/capsule_616x353.jpg"
+    },
+    {
+      "id": "aaec",
+      "name": "Survival Nation",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "16+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Зомби",
+        "Выживание",
+        "Приключение"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_277380ae47b81a75d0203e0681de3252369da401.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_64197111c4a9128b3d03e8b7acbdd7c74ab07d05.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_0938f5014922a552eda07f7b0c44b1e3d36d612a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_010c1c5d4eb2aed139bc08d336750830de5094e0.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_388a9fc64fb57b760bfeb015ce829927871f430b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_da9d0c2d34641f002b558f8850a86dc09a04ec78.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_314d92a722eb55d796970972f86e01a840ae6d8f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_5805c28977698a7990f1a1b96a6827658cf58097.jpg"
+      ],
+      "description": "Survival Nation VR — это онлайн-RPG про выживание в зомби-апокалипсисе с открытым миром, разработанная для виртуальной реальности. Игроки должны заботиться о еде и воде, сражаться с зомби, добывать ресурсы, заниматься крафтом, выполнять квесты и развивать персонажа. Доступны режимы для одиночной игры, кооператива (PVE) и противостояния с другими игроками (PVP). ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256905679/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/2153780/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/2153780/capsule_616x353.jpg"
+    },
+    {
+      "id": "feda",
+      "name": "The Forest",
+      "russian": "Есть субтитры",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость",
+        "Много крови",
+        "Сверхъестественное"
+      ],
+      "age": "16+",
+      "difficulty": 2,
+      "tags": [
+        "Выживание",
+        "Пугающие",
+        "Исследование",
+        "Кооператив",
+        "С другом"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_d03a261fecab226a0ecac5746225c2a50d65c670.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_a37e6873baf869be91010b20c30a7e61e4b82cc1.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_7598551a5bfbf69ae1161c8ebee8e000868add24.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_53c615d49c4777144ed7359e4bf7c9eb6838cc8e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_772eebf0ce7bdb51546055a36185e8ee46e8acac.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_d77d402c78451a04b5c370e81ff7767c4008343c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_7a8d95143af9f801a7b5ba9a6cb23f2e5998344c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_471c40435f1811182e47c11486cf9c042dbf7401.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_a1a871918b4fa3dcc71f19f3aa4ea1fff3ab649b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_e50b7c8bc2f4720859ba13aa32703661192f4d62.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_792069bbfdd795f3e0b139c5b4e5140f2e9ea70c.jpg"
+      ],
+      "description": "The Forest VR — это захватывающий VR-симулятор выживания, основанный на ПК-игре. Игроки попадают на загадочный остров после авиакатастрофы и должны выживать, добывая ресурсы, строя убежища и отбиваясь от враждебного племени каннибалов и мутантов. В VR-версии игра обеспечивает эффект полного погружения, позволяя ощутить атмосферу страха и адреналина, а также играть вместе с друзьями в кооперативном режиме до 4 человек. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256715589/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/242760/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/242760/capsule_616x353.jpg"
+    },
+    {
+      "id": "3db2",
+      "name": "Into the Radius",
+      "russian": "Есть субтитры",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["Жестокость"],
+      "age": "17+",
+      "difficulty": 2,
+      "tags": [
+        "Выживание",
+        "Исследование"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_db1c62f25abedb0307df05dd90e330c9c068d26d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_6b7ded40c638333e5007b866dbccfa317a28c597.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_2023ca091eff69f21df79b5d157e058f5b59a77c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_bcdff6ba001904ec316d5eae10dcaaff543b3b10.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_bbee660d2b13c19277aab75737b4c2bf5ab52c51.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_b75a317f2df254dc559f05cab07939039ec85df9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_1383b29a081ecf351585026a9230aec2e263cafb.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1012790/ss_d749f745e9b78d62a1c95da804328033851df39e.jpg"
+      ],
+      "description": "Into the Radius — однопользовательский VR-шутер на выживание. Исследуйте пустоши Радиуса, полные монстров и опасных аномалий. Защищайтесь с помощью реалистичного оружия, собирайте удивительные артефакты и раскрывайте секреты аномальной местности.",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256936299/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1012790/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1012790/capsule_616x353.jpg"
+    },
+    {
+      "id": "9be7",
+      "name": "Raw Data",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": ["Жестокость"],
+      "age": "17+",
+      "difficulty": 3,
+      "tags": [
+        "Стрелялка"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_74d89ad4d4e47c277f380dc4cd2da1c94249afba.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_bb23dfffc90a1abc1277d337a26fe88e4fe12117.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_c32bdf3d0ac7e90a8392e25a1b0a29640bd70ffd.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_48cbb65da595018718f699bcd17a22a24038d5d0.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_2a21a1f01d79763fe133b9dd548bda5b3d7239f4.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_08ebe2584403509fb6dd86599a283b1e24a47f57.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_5643b1e3b698a8986b14b4ea3e43b515a8ad4bf9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_807484fb8ad1f3eb1fb1e17b22ea4363f9ec76de.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_9c70101506baffed8a81e7d7396906df62547c19.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_7a822d0a07a612b10e630ad9d6429bc8f95163ce.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_99722b10fe00154742317545947602e86650bd58.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_d5bde279d8f0d4d892e569a75df9255535f2667d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_e775622db5980c03ae0a852b19c2915b76529f3a.jpg"
+      ],
+      "description": "Raw Data VR — это VR-шутер от первого лица от компании Survios, в котором игроки сражаются с толпами андроидов в футуристическом мире. Игра сочетает в себе напряженный геймплей, захватывающий сюжет и кооперативный режим до четырех человек. Пользователи могут выбирать из четырех уникальных персонажей с различными способностями, которые можно улучшать по ходу игры. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256697289/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/436320/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/436320/capsule_616x353.jpg"
+    },
+    {
+      "id": "7b44",
+      "name": "SWORDS Of GARGANTUA",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "14+",
+      "difficulty": 3,
+      "tags": [
+        "С другом",
+        "Драки"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/895200/ss_9d9f9a2310c9511a722447ca601e93906c9c3161.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/895200/ss_876fa2efdb50e445914fa4770d71d387a125cfe6.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/895200/ss_b375231d85d55754f816d91eff50550fa47bcfcb.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/895200/ss_bfaffe5caa1d65bdf2f06f8104438f0e6de94ba1.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/895200/ss_22d74478c58e3b528fa34e7ff8bf3aa2b94e592b.jpg"
+      ],
+      "description": "Swords of Gargantua — это VR-экшен с элементами RPG, в котором игроки в роли воинов с холодным оружием поднимаются по гигантской башне, сражаясь с монстрами, чтобы победить главного босса-Гаргантюа. Игра рассчитана на кооперативное прохождение в группе до четырёх человек, хотя можно играть и в одиночку. Башня насчитывает 101 этаж, а по мере прохождения игроки могут прокачивать оружие и получать магические артефакты. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256932778/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/895200/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/895200/capsule_616x353.jpg"
+    },
+    {
+      "id": "5e51",
+      "name": "Vacation Simulator",
+      "russian": "Отсутствует",
+      "control": [
+        "Стоя",
+        "Сидя"
+      ],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 1,
+      "tags": [
+        "Семейная",
+        "Аркада",
+        "Симулятор"
+        
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_7f7bd545c32a35ea4814e4724eea1d883d628a50.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_eb16e3ce368c0faf30683d0837aaad7497e22f86.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_a92b4e9d29528bbb2e6b95108e5a16aa9286dc9d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_f042781e60e36c6d3d86c0378330b751eee4393a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_9164d9c9062126f670ede274433ba70572aa3825.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_2fcce1059b7df96171e40d09f644f9e1041758c3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_cc04c852db47b1e4c679e8236345ce6c4da913a5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_d94d4d2110223455baab88dc543ffde444985e97.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_6de872741a76f500cfea46ad7589472f08f0289f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_5bf1541b67a32c8fe28a56d75b2fecd17894d880.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_a561ddfa3bb887f4985886862cfd6ded9358ecec.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_59728a9e5971f30877dbee6744b1fbbd5d7954ea.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/726830/ss_ff92df55a011cf22d29ed291b1bbde1332aa568b.jpg"
+      ],
+      "description": "Vacation Simulator — это VR-игра-песочница, сиквел Job Simulator, в которой вы симулируете отпуск, выполняя различные забавные задания в разных зонах, таких как пляж, лес и горы. Игра предлагает взаимодействие с миром, строительство из песка, запуск снежков, дайвинг, создание смузи и многое другое, чтобы достичь «идеального отдыха». Она разработана для VR и подходит для детей, казуальных игроков и семей. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256747520/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/726830/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/726830/capsule_616x353.jpg"
+    },
+    {
+      "id": "1a8b",
+      "name": "Hellsplit: Arena",
+      "russian": "Отсутствует",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "16+",
+      "difficulty": 3,
+      "tags": [
+        "Драки"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_c9a2f75b0826893a10706c10e2dd6a314a4d1654.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_58ace41f14af7dc02b153041b49d78a366a51609.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_ac14a16a7a35026395fde68190f8c0e6d8eefba9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_5b1b6534839e37a3e19699f62a0a034683a15b78.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_e2af7f9c0398e62f23117eda1af770e0c327d9ba.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_e8ffcdc24e294d54a2266b15994c58fcc7208b3d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_c6619ecc836da4e156245edfc72e7b0f3dcc749c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_7b22ae115e377145613fa112e4ba6ad3255d0ce0.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_a6e76c27ea8f7bfdd082e615dc3e2b78a60a5697.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_4277f5556d0da822cef94993176158b492c40e29.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_7f86b6e4c36ac88565d233ae902a6c43303c2570.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_5d8e328fbdb30ffa0e598b609877a6db54dfa778.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_6be1b4e216834cb44d56643d7f0f6aa88ba5a8c1.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_fb2ffc740833cca99df56cd505b80864db118889.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_7f11c5f5ecd03312e2332e518f5d56094a38a69a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1039880/ss_4352e04842d180e018fd48fa6573d942d8f0c9eb.jpg"
+      ],
+      "description": "Hellsplit: Arena — это VR-хоррор-слэшер, который переносит игроков в мрачный средневековый мир, населённый нежитью. Игра сочетает реалистичную боевую систему с физически корректными движениями, где исход битвы зависит от мастерства и выносливости игрока. Игроки сражаются с помощью разного оружия, а игра предлагает погружение в атмосферу хоррора и фэнтези. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256747811/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1039880/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1039880/capsule_616x353.jpg"
+    },
+    {
+      "id": "0e9b",
+      "name": "The Wizards - Enhanced Edition",
+      "russian": "Есть субтитры",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Жестокость"
+      ],
+      "age": "16+",
+      "difficulty": 3,
+      "tags": [
+        "Приключение"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_35c2e89722a46c4ace3fb6a19a1ae2be81833974.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_27af889be2b688752acfd9fe1949309007b7e268.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_cf50f4ef72b68d1dda1e688eca80a73172ee06a5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_ef61f145d945d5513d71bd8bfc6e9d7cfe927366.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_6165fb0236ecbf575d0383facd55075cc96e308c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_fc5c602bf0e1fefbec435f6ba639cdfda2b42e39.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_4097d0d72c63990c379eb52f1ebc0a1631e2f41e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_a92e42274508fde9d2c235b6e4947ccd90440b85.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_26c654f521c58325e1b3187b1fefb88ed95e033c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_dbe33c4b423f064b089217b24a835f6a1ddbd70e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_30a626279eb280004e120f0d1be2d6638c06b37b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_d4c1943e660f1b9b53e1b99ca7966271527c99ee.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_582fc5d389577c1aa0bb080eaa001f31f59cf6de.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_3333a3eaa714ce9f300e251fe67283a9169fe899.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_862e097726ac98e0a060c34b616e831f37366ee5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_8c5d6a2dfb94be6cfc771f308bffc593f3f14068.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_4431dfc1fe156b14739606125ba29b523050fa7f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_b451b781595b8868a7132cf2de708a06df4d5d7e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/586950/ss_1332416d86177672d4b45885e89dff070e29b0fb.jpg"
+      ],
+      "description": "Используйте контроллеры движений, чтобы уничтожать врагов, плетя магические узоры и накладывая заклинания молний, огненных шаров и других стихий. Собирайте комбо и применяйте разную тактику против враждебных существ. Сделайте игру сложной либо легкой по своему вкусу с помощью Карт Судьбы. Воплотите свою мечту в жизнь и станьте героем, с кончиков пальцев которого разлетаются могущественные заклинания!",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256745015/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/586950/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/586950/capsule_616x353.jpg"
+    },
+    {
+      "id": "028c",
+      "name": "UNDERDOGS",
+      "russian": "Есть субтитры",
+      "control": [
+        "Отклонение стиков"
+      ],
+      "violation": [
+        "Много крови",
+        "Жестокость"
+      ],
+      "age": "17+",
+      "difficulty": 2,
+      "tags": [
+        "Стрелялка",
+        "Песочница"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_a9fa05e7f0d48fbf59872da37ef5106c202a3b44.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_6c7d625c9100b307cb5745b4c265dadda153cd28.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_61c642f37dc5c0de958797c5dcfdb692ae61c249.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_cc021b808ad247452d1a9fe998c3f7790fea0888.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_ca36b5d9ac4b57dc7d4283c0b3b2e3b83b5f079e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_f62e1941647eac2dbc19524696ffd8aeccc151dd.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_2487afc13020721abe42b896d75bfa5ddec2190a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_06d1ed3ec86654c8c1e8ebb045072ea34cebadec.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_2cf82a039039fcc5733b3307381c582f50a6585d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2441700/ss_01e9a7242bc040037887d276f99f0d9d8f3a6d34.jpg"
+      ],
+      "description": "UNDERDOGS VR — это ареновый экшен-файтинг в жанре rogue-like для VR, где игрок управляет пятитонным мехом в подпольных боях. В игре на физику нацелена жестокая схватка с улучшением своего боевого робота между раундами. Игроки сражаются за выживание в антиутопическом мире, где их брат Кинг помогает взламывать врагов, а также нужно находить и улучшать предметы. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256995907/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/2441700/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/2441700/capsule_616x353.jpg"
+    },
+    {
+      "id": "d32a",
+      "name": "Walkabout Mini Golf VR",
+      "russian": "Отсутствует",
+      "control": ["Стоя"],
+      "violation": [
+        "-"
+      ],
+      "age": "10+",
+      "difficulty": 1,
+      "tags": [
+        "Семейная",
+        "Спорт",
+        "С другом",
+        "Кооператив"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1408230/ss_eccc80eeaac9530d7bc4ef74b7d537330766c0e5.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1408230/ss_4d767ffcb374dbd5a4bfadfff6b81300662c23e6.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1408230/ss_57b7cffd18a3881dde92aa124ae9e4474dacfbc8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1408230/ss_69f8bbbb3c1763d38088f60b4305cdca43579700.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1408230/ss_23432abbb9b422160aeed2ae656b2c688923ad5e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1408230/ss_f066fe241946a260faeb04e5a35286edc8900f0d.jpg"
+      ],
+      "description": "Walkabout Mini Golf VR — это VR-игра в мини-гольф с реалистичной физикой, которая позволяет играть в одиночку, с друзьями или незнакомцами. Она доступна на нескольких платформах, таких как Quest, Rift, PSVR2 и Pico. Игроки могут наслаждаться разнообразными и красивыми полями, а также соревноваться в многопользовательском режиме (до 8 игроков), что делает ее популярной и увлекательной игрой для широкого круга игроков. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256982611/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1408230/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/1408230/capsule_616x353.jpg"
+    },
+    {
+      "id": "e14a",
+      "name": "Loco Dojo",
+      "russian": "Отсутствует",
+      "control": ["Стоя"],
+      "violation": ["-"],
+      "age": "10+",
+      "difficulty": 1,
+      "tags": [
+        "Семейная",
+        "Аркада"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_4362586535b2fedddc213aab4da7cba199398f88.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_076703cd9af4920e601f329ad702621e06a6f57d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_212055662d7adf6be5456ae0345c38dda30f94b2.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_d9ff028e3f98d83122cc12cbb8509315eb832329.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_fe6a0999016ed537350b9cc6889cb7f58bc19f20.jpg"
+      ],
+      "description": "Loco Dojo — это многопользовательская VR-игра с мини-играми в аркадном стиле, где игроки соревнуются друг с другом в серии нелепых и веселых испытаний. Игра предлагает соревноваться в формате настольной игры на виртуальной доске, где по очереди крутится колесо фортуны и выполняются выпавшие испытания, чтобы получить очки. Это отличный выбор для игры с друзьями или семьей благодаря своей юмористической атмосфере и кроссплатформенной поддержке. ",
+      "trailer": "https://cdn.steamstatic.com/steam/apps/256688705/movie_max.mp4",
+      "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/667800/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/667800/capsule_616x353.jpg"
+    }
+  ]
+}
