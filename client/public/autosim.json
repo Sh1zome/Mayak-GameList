@@ -2,7 +2,7 @@
   "games": [
     {
       "id": "op15",
-      "name": "Project CARS 2",
+      "name": "Assetto Corsa",
       "russian": "Есть субтитры",
       "control": ["Автосимулятор"],
       "violation": ["-"],
@@ -10,20 +10,26 @@
       "difficulty": 3,
       "tags": [],
       "screenshots": [
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_a5cade5769d61991dd4c6f0323df272c83545ac5.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_b1e44a2109e9674996a5fc7a4e5ef4d165703ae4.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_5f54e28eaa9b92ca437ba86ba7242b845d7da338.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_41d42428c4ec79078e4e7d638eda452604adf61d.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/ss_1df5daed7aff23328b515839ad543cf91fc92277.jpg"
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_cc532907a14b12117825c609b9c941768ce87e51.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_b97afb7a10ad6455c01d0e2a191e105007cf7504.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_131963607a54afaf64688397d9742af37149148d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_276544bf9b71fe701254f1d065e97c0be74f65e2.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_6c771fd2bff6a09d39541d0aee04a7f663927e0f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_a098061e7aaf52410030a012d07582b11ff4cb72.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_61a962d326288c0dcd88edcd062a62b89e41d77d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_c5b3513683139e9f97bff528e275ca3f89bd651e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_5b7457e7ec2e04517be4e3e22c3eb1c182cd4b06.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_726fe3c27fd774eb790382c1b20066db139b61b9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/ss_4beda281a1dd82ccd82e32052dafdfc403c2916b.jpg"
       ],
-      "description": "Project CARS 2 — это гоночный симулятор, разработанный Slightly Mad Studios, с акцентом на максимальный реализм. Игра предлагает разнообразный контент, включая более 180 автомобилей и 140 трасс в 60 локациях, реалистичные погодные условия (включая динамическую смену погоды и времени суток), а также множество гоночных дисциплин. Симулятор подходит для игроков, которые ищут хардкорный опыт вождения, а также имеет более детальный карьерный режим и улучшенный многопользовательский режим по сравнению с первой частью. ",
-      "trailer": "https://cdn.steamstatic.com/steam/apps/256696034/movie_max.mp4",
-      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/library_600x900_2x.jpg",
-      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378860/capsule_616x353.jpg?t=1663714740"
+      "description": "Assetto Corsa — это высокореалистичный гоночный симулятор от Kunos Simulazioni, известный своей точной физикой, лицензированными автомобилями, проработанными трассами (созданными с помощью лазерного сканирования) и глубокой поддержкой модификаций, предлагающий как одиночные режимы (карьера, испытания), так и многопользовательские гонки, дрифт и настройку под любые уровни опыта, от новичков до профессионалов. ",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/256704206/movie_max.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/244210/9d5338914376791adcf247efdc3cbd2135deb804/capsule_616x353.jpg?t=1754985171"
     },
     {
       "id": "15le",
-      "name": "DiRT Rally",
+      "name": "DiRT Rally 2.0",
       "russian": "Отсутствует",
       "control": ["Автосимулятор"],
       "violation": ["-"],
@@ -35,12 +41,39 @@
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_6c56526b621377580b497ea5632dc094e6327012.jpg",
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_c574eb7701f6b282de79b50d8e33b29a2b01dce2.jpg",
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_97e9adfe4c148d1d67b3114be6a3dea529b07c91.jpg",
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_82a5fa9c0ac77386fba64fde3c09e5e8798e842a.jpg"
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/ss_82a5fa9c0ac77386fba64fde3c09e5e8798e842a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690790/ss_1167f93af92b010a8db2319428cdb8680362e841.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690790/ss_1e089ba6ed5f44cf2dbbf79cf854c2d42a12c658.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690790/ss_ea25c62450df2a0904bb748a818922cd3fb280ac.jpg"
       ],
-      "description": "DiRT Rally — это реалистичный гоночный симулятор ралли и ралли-кросса от Codemasters, отличающийся от предыдущих игр серии отсутствием сюжета и фокусом на реалистичную физику вождения. В игре игроки соревнуются на время на сложных трассах с разным покрытием и в разных погодных условиях, а повреждения автомобиля реально влияют на управление. ",
+      "description": "DiRT Rally 2.0 — это хардкорный раллийный симулятор от Codemasters, продолжение первой части, отличающийся невероятно реалистичной и сложной физикой, где важна каждая ошибка, и предлагающий гонки по культовым локациям мира на мощных внедорожниках и ралли-кросс с лицензией FIA World Rallycross. Игра ценится фанатами за глубокое погружение, отличные ощущения от вождения, проработанные дорожные покрытия, которые меняются по ходу гонки, и необходимость адаптации к условиям, освещению и износу трассы. ",
       "trailer": "https://cdn.steamstatic.com/steam/apps/256662577/movie_max.mp4",
       "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/library_600x900_2x.jpg",
       "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/capsule_616x353.jpg?t=1667844327"
+    },
+    {
+      "id": "15bk",
+      "name": "Forza Horizon 5",
+      "russian": "Есть субтитры",
+      "control": ["Автосимулятор"],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 3,
+      "tags": [],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0a13a7ccd38e7c3e6a5f1720050732833b53b6a8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_3654a5988db68f9b47740f9f6a9299682c365599.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_1da0673f82eccc3c9d222237dec40e36bf10eef3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/ss_78e4f63e05d50e59b9966ba8da9a53dbf84fd8f4.jpg"
+      ],
+      "description": "Forza Horizon 5 — это аркадная гонка с открытым миром, действие которой разворачивается в яркой и разнообразной Мексике, предлагающая сотни лицензированных автомобилей, огромную карту, динамичную погоду и сезонные изменения, а также множество событий, испытаний и возможность творческого самовыражения через редактор EventLab, где игроки создают свои гонки и делиться ими с сообществом. Игра сочетает в себе реалистичную физику с аркадной доступностью, предоставляя как расслабляющий отдых, так и сложные испытания для опытных гонщиков, что делает ее праздником для любителей автомобилей. ",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/256875134/movie_max.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508"
     }
   ]
 }
