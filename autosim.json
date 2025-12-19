@@ -47,9 +47,9 @@
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690790/ss_ea25c62450df2a0904bb748a818922cd3fb280ac.jpg"
       ],
       "description": "DiRT Rally 2.0 — это хардкорный раллийный симулятор от Codemasters, продолжение первой части, отличающийся невероятно реалистичной и сложной физикой, где важна каждая ошибка, и предлагающий гонки по культовым локациям мира на мощных внедорожниках и ралли-кросс с лицензией FIA World Rallycross. Игра ценится фанатами за глубокое погружение, отличные ощущения от вождения, проработанные дорожные покрытия, которые меняются по ходу гонки, и необходимость адаптации к условиям, освещению и износу трассы. ",
-      "trailer": "https://cdn.steamstatic.com/steam/apps/256662577/movie_max.mp4",
-      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/library_600x900_2x.jpg",
-      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310560/capsule_616x353.jpg?t=1667844327"
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/256969266/movie_max.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690790/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/690790/capsule_616x353.jpg?t=1730918452"
     },
     {
       "id": "15bk",
