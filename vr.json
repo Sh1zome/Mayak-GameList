@@ -1200,6 +1200,39 @@
       "trailer": "https://cdn.steamstatic.com/steam/apps/256688705/movie_max.mp4",
       "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/667800/library_600x900_2x.jpg",
       "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/667800/capsule_616x353.jpg"
+    },
+    {
+      "id": "c14l",
+      "name": "Minecraft",
+      "russian": "Присутствует",
+      "control": ["Стоя", "Сидя", "Отклонение стиков", "Телепорт"],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 1,
+      "tags": [
+        "Семейная",
+        "Аркада",
+        "Выживание",
+        "Зомби",
+        "Исследование",
+        "С другом",
+        "Симулятор",
+        "Приключение",
+        "Кооператив"
+      ],
+      "screenshots": [
+        "https://www.androidheadlines.com/wp-content/uploads/2019/07/Minecraft.jpg",
+        "https://i.tlauncher.org/images/vr-mod-screenshots-1-1750680301.jpg",
+        "https://www.9minecraft.net/wp-content/uploads/2024/11/VR-Mod-Screenshots-3.jpg",
+        "https://www.9minecraft.net/wp-content/uploads/2024/11/VR-Mod-Screenshots-5.jpg",
+        "https://www.9minecraft.net/wp-content/uploads/2024/11/VR-Mod-Screenshots-9.jpg",
+        "https://www.9minecraft.net/wp-content/uploads/2024/11/VR-Mod-Screenshots-10.jpg",
+        "https://i0.wp.com/www.vivecraft.org/wp-content/uploads/2016/12/ezgif.com-839689d05b.gif?fit=400%2C228&ssl=1"
+      ],
+      "description": "Minecraft — это культовая 3D-игра-«песочница» с открытым миром, где всё состоит из кубических блоков, позволяющая игрокам добывать ресурсы, строить, исследовать и выживать, создавая уникальные миры и приключения без чёткого сценария, в одиночку или с друзьями, и предлагающая почти безграничные возможности для творчества. Игровой процесс включает добычу материалов, строительство, исследование процедурно-генерируемых карт и сражения с монстрами, что делает её популярной как среди детей, так и среди взрослых. ",
+      "trailer": "",
+      "cardHeader": "https://upload.wikimedia.org/wikipedia/ru/archive/f/f4/20221113131206%21Minecraft_Cover_Art.png",
+      "mobileCardHeader": "https://preview.redd.it/2zs6alhs84y71.png?width=767&format=png&auto=webp&s=15fae2f6e601178e7aae481c70dff1d229bb8855"
     }
   ]
 }
