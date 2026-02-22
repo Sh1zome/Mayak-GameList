@@ -74,6 +74,60 @@
       "trailer": "https://video.fastly.steamstatic.com/store_trailers/256875134/movie_max.mp4",
       "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/library_600x900_2x.jpg",
       "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508"
+    },
+    {
+      "id": "op77",
+      "name": "Euro Truck Simulator 2",
+      "russian": "Есть субтитры",
+      "control": ["Автосимулятор"],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 4,
+      "tags": [],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_54100267623179f54731048c91add16c1c3d3d1e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_e040f74641ac21f15e3ec7c2415fc8b4de0b6bf9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_fd675feae669c7fb4ca6dcfb738d49fb7b7a238d.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_edbff61a062a49d1d97269e53b8afbffde05bb24.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_53bcdc903f1f2ef18ee12612627f1c3b59c7c1da.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_a944c7f801629bfa0cfb91fa7b23b4ff95e11753.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_5dff1bca6580b5df288a4ad061e4f92f62f6a073.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_1a455dd625b6d8068c6f1db93887167383275757.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_fa9d08bac73ca4745387aa41a5d95ce13204cede.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_e8f2f677d41086916804ffca0e3da04c7c5b600f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/ss_bf111ac8893e0a11a68f03e538be3076b600f36f.jpg"
+      ],
+      "description": "Euro Truck Simulator 2 (ETS 2) — культовый симулятор водителя грузовика от SCS Software (2012), сочетающий управление большегрузами с экономической стратегией. Игроки доставляют грузы по Европе, покупают и тюнингуют лицензированные тягачи (Scania, Volvo, MAN и др.), строят бизнес, нанимают водителей и расширяют сеть гаражей. Открытый мир: Масштабная карта Европы (масштаб 1:19), охватывающая десятки городов и стран с реалистичными дорожными развязками, мостами и тоннелями. Экономика: Начинаете как наемный водитель, постепенно покупаете свой первый грузовик, берете кредиты и создаете логистическую империю. Лицензированные грузовики: Детализированные модели DAF, Iveco, MAN, Mercedes-Benz, Renault, Scania, Volvo с возможностью кастомизации (двигатель, шасси, внешний вид). Геймплей: Управление включает соблюдение ПДД, заправку, отдых водителя и парковку прицепов.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/227300/455253/f717b44f949ed6c824778b30d516147bdaaad95a/1750482436/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/b1783fbc824cba63d3393db25af776d77e68a079/hero_capsule.jpg?t=1764266628",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/5237101dc9efe4873c9be1804d4ed2619ad7bee4/capsule_616x353.jpg?t=1764266628"
+    },
+    {
+      "id": "op78",
+      "name": "American Truck Simulator",
+      "russian": "Есть субтитры",
+      "control": ["Автосимулятор"],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 3,
+      "tags": [],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_758470ddbd783e7ff0caac1a59b7fde4a74bbb67.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_ba330377eb0a5bffcdbe10f89d3670b83ad55b3f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_f0c114cadf2c3c02f54608c6751d5936a534061c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_565e0bad8873c3bd0ad08c4ba7e805cb18970e8c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_7825c812221cb25b97cbe232272efb380e93df94.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_253075cab0028149aa3e449a341ba9054174b018.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_d66d392b649a0fd9fb6039c0f749c0b1e6edac00.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_f32731750f6549c24b495b02b7b34ac63721fddb.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_6c28de5e2bf28c5f098ac5373543489345d0a685.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_bb7b840945c152241562651c704ead6ae9c7b361.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/ss_7656a8c8691c82268d0f3ce1f7fe51fba88d0c46.jpg"
+      ],
+      "description": "American Truck Simulator (ATS) — реалистичный симулятор водителя-дальнобойщика с элементами стратегии от SCS Software, выпущенный в 2016 году. Игроки перевозят грузы по штатам США на культовых капотных грузовиках, развивая собственную логистическую компанию, покупая технику и нанимая водителей. Атмосфера США: Действие происходит на дорогах Америки (Калифорния, Невада, Аризона и др.), предлагая живописные пейзажи, пустыни и известные достопримечательности. Легендарные грузовики: В игре представлены детально проработанные модели американских тягачей (Kenworth, Peterbilt, International) с мощными двигателями. Экономический симулятор: Начиная как наемный водитель, игрок зарабатывает на покупку собственного грузовика и создание компании. Разнообразие грузов: Перевозка обычных товаров и крупногабаритных грузов (oversize).",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/270880/131869705/8ce99ab76c190aeb2afb0bdda4bd07354882148c/1750487883/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/library_600x900_2x.jpg?t=1764952453",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/270880/dbdd34f3a2fe8479c1b2758f6786cf861c3438cc/capsule_616x353.jpg?t=1764952453"
     }
   ]
 }
