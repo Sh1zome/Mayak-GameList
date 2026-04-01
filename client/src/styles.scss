@@ -269,14 +269,15 @@ html, body {
   position: relative;
   background-color: #1b1b1b;
   border-radius: 16px;
-  border: 2px solid #e02424;
+  border: 2px solid #ffffff57;
   width: 220px;
   cursor: pointer;
   transition: all 0.25s ease;
   overflow: hidden;
   &:hover {
     transform: translateY(-8px);
-    box-shadow: 0 0 10px #e0242480;
+    box-shadow: 0 4px 10px #e0242471;
+    border: 2px solid #e02424;
   }
 
   .card-header {
