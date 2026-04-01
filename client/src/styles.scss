@@ -132,7 +132,7 @@ html, body {
 .game-card { 
 
   .new-indicator {
-    margin-top: -8px;
+    // margin-top: -8px;
     text-align: center;
     align-items: center;
     align-self: center;
@@ -140,6 +140,11 @@ html, body {
     vertical-align: middle;
     padding-top: 4px;
     font-size: 13px;
+    // position: absolute;
+    // top: 0;
+    // width: 220px;
+    // left: 50%;
+    // transform: translate(-50%);
   }
 
   .rdate-indicator {
@@ -150,6 +155,11 @@ html, body {
     vertical-align: middle;
     padding-top: 4px;
     font-size: 13px;
+    // position: absolute;
+    // top: 23.5px;
+    // width: 220px;
+    // left: 50%;
+    // transform: translate(-50%);
   }
 
   .lang-indicator {
@@ -284,18 +294,20 @@ html, body {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border-radius: 12px 12px 0 0;
+    // border-radius: 12px 12px 0 0;
   }
 
   h3 {
     margin: 10px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
+    // line-height: 0;
+    margin-top: 4px;
   }
 
   .lang-indicator {
     position: absolute;
-    top: 12px;
+    top: 6px;
     right: 12px;
     background-color: transparent; /* цвет устанавливается инлайн-стилем */
     color: transparent;
@@ -310,6 +322,7 @@ html, body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    outline: 2px solid #00000057;
   }
   &:hover .lang-indicator {
     width: auto;
@@ -647,7 +660,10 @@ html, body {
       object-fit: contain;
     }
     .new-indicator {
-
+      width: 100%;
+    }
+    .rdate-indicator {
+      width: 100%;
     }
     .lang-indicator {
       position: static;

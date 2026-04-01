@@ -175,11 +175,7 @@ const App: React.FC = () => {
 
     return (
       <div key={game.name} className="game-card" onClick={handleOpenGame}>
-        <img
-          src={isMobile ? game.mobileCardHeader : game.cardHeader}
-          alt={game.name}
-          className="card-header"
-        />
+        
         {game.new != undefined && (
           <div
             className="new-indicator"
@@ -189,6 +185,7 @@ const App: React.FC = () => {
             {game.new}
           </div>
         )}
+
         {game.rdate != undefined && (
           <div
             className="rdate-indicator"
@@ -198,6 +195,12 @@ const App: React.FC = () => {
             Релиз {game.rdate}
           </div>
         )}
+        
+        <img
+          src={isMobile ? game.mobileCardHeader : game.cardHeader}
+          alt={game.name}
+          className="card-header"
+        />
         {isZonaOrAuto && (
           <>
             <div
@@ -313,7 +316,7 @@ const App: React.FC = () => {
               <div className="game-description">{selectedGame.description}</div>
               <div className="game-info">
                 {selectedGame.new != undefined && (
-                  <p className='newString'><strong>{selectedGame.new} - {selectedGame.rdate != undefined && (selectedGame.rdate)}</strong></p>
+                  <p className='newString'><strong>{selectedGame.new}{selectedGame.rdate != undefined && (' - ' + (selectedGame.rdate))}</strong></p>
                 )}
                 <p><strong>Русский язык:</strong> {selectedGame.russian}</p>
                 <p><strong>Управление:</strong> {selectedGame.control.join(', ')}</p>
