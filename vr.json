@@ -13,10 +13,9 @@
       "age": "16+",
       "difficulty": 3,
       "tags": [
-        "С другом",
-        "Стрелялка",
-        "Зомби",
-        "Кооператив"
+        "Совместная",
+        "Шутер",
+        "Зомби"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2897700/ss_36e410907c892275702b2310056bcd04e58384db.jpg",
@@ -43,9 +42,8 @@
       "age": "16+",
       "difficulty": 2,
       "tags": [
-        "С другом",
-        "Пугающие",
-        "Кооператив",
+        "Совместная",
+        "Ужасы",
         "Исследование"
       ],
       "screenshots": [
@@ -66,7 +64,7 @@
     },
     {
       "id": "40d1",
-      "name": "FIVE NIGHTS AT FREDDY'S: HELP WANTED",
+      "name": "FNAF: HELP WANTED",
       "russian": "Есть субтитры",
       "control": [
         "Сидя",
@@ -78,7 +76,7 @@
       "age": "14+",
       "difficulty": 2,
       "tags": [
-        "Пугающие"
+        "Ужасы"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/732690/ss_722001c2ea40f40bf05ba609d1d67a39bf3abef5.jpg",
@@ -108,10 +106,9 @@
       "age": "16+",
       "difficulty": 2,
       "tags": [
-        "С другом",
-        "Стрелялка",
-        "Зомби",
-        "Кооператив"
+        "Совместная",
+        "Шутер",
+        "Зомби"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1540210/ss_baa449521f523bf58c271c4ee905e9a746cf3c83.jpg",
@@ -143,7 +140,7 @@
         "Реакция",
         "Музыка",
         "Аркада",
-        "С другом"
+        "Совместная"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620980/ss_7df971fd7781d69dc455b15a400a6973ed7d3f36.jpg",
@@ -170,7 +167,7 @@
       "age": "16+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Исследование",
         "Приключение",
         "Песочница"
@@ -198,7 +195,7 @@
       "age": "16+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Приключение",
         "Исследование"
       ],
@@ -260,7 +257,7 @@
       "age": "6+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Аркада",
         "Семейная"
       ],
@@ -295,7 +292,7 @@
       "age": "12+",
       "difficulty": 2,
       "tags": [
-        "С другом",
+        "Совместная",
         "Драки",
         "Спорт"
       ],
@@ -329,9 +326,8 @@
       "age": "14+",
       "difficulty": 2,
       "tags": [
-        "С другом",
-        "Стрелялка",
-        "Кооператив"
+        "Совместная",
+        "Шутер"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527700/ss_ca470cdf8be716b4b08b2e14333b112e4cca0d3c.jpg",
@@ -393,8 +389,8 @@
       "age": "16+",
       "difficulty": 1,
       "tags": [
-        "Стрелялка",
-        "С другом"
+        "Шутер",
+        "Совместная"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636030/ss_e7cd13bfdf5ef121e0e56c32ca6412332ce584a5.jpg",
@@ -421,9 +417,9 @@
       "age": "12+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Приключение",
-        "С другом"
+        "Совместная"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/503770/ss_c1693918ec2c375bbef227cb09111b6a711fc5b5.jpg",
@@ -593,7 +589,7 @@
       "age": "16+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Приключение"
       ],
       "screenshots": [
@@ -633,7 +629,7 @@
       "age": "17+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Приключение"
       ],
       "screenshots": [
@@ -814,7 +810,7 @@
       "age": "14+",
       "difficulty": 1,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Реакция"
       ],
       "screenshots": [
@@ -847,11 +843,11 @@
       "age": "16+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Зомби",
         "Выживание",
         "Приключение",
-        "С другом"
+        "Совместная"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_277380ae47b81a75d0203e0681de3252369da401.jpg",
@@ -884,10 +880,9 @@
       "difficulty": 2,
       "tags": [
         "Выживание",
-        "Пугающие",
+        "Ужасы",
         "Исследование",
-        "Кооператив",
-        "С другом"
+        "Совместная"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.jpg",
@@ -948,7 +943,7 @@
       "age": "17+",
       "difficulty": 3,
       "tags": [
-        "Стрелялка"
+        "Шутер"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/436320/ss_74d89ad4d4e47c277f380dc4cd2da1c94249afba.jpg",
@@ -983,7 +978,6 @@
       "age": "14+",
       "difficulty": 3,
       "tags": [
-        "С другом",
         "Драки"
       ],
       "screenshots": [
@@ -1128,7 +1122,7 @@
       "age": "17+",
       "difficulty": 2,
       "tags": [
-        "Стрелялка",
+        "Шутер",
         "Песочница"
       ],
       "screenshots": [
@@ -1161,8 +1155,7 @@
       "tags": [
         "Семейная",
         "Спорт",
-        "С другом",
-        "Кооператив"
+        "Совместная"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1408230/ss_eccc80eeaac9530d7bc4ef74b7d537330766c0e5.jpg",
@@ -1196,7 +1189,7 @@
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_d9ff028e3f98d83122cc12cbb8509315eb832329.jpg",
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_fe6a0999016ed537350b9cc6889cb7f58bc19f20.jpg"
       ],
-      "description": "Loco Dojo — это многопользовательская VR-игра с мини-играми в аркадном стиле, где игроки соревнуются друг с другом в серии нелепых и веселых испытаний. Игра предлагает соревноваться в формате настольной игры на виртуальной доске, где по очереди крутится колесо фортуны и выполняются выпавшие испытания, чтобы получить очки. Это отличный выбор для игры с друзьями или семьей благодаря своей юмористической атмосфере и кроссплатформенной поддержке. ",
+      "description": "Loco Dojo — это многопользовательская VR-игра с мини-играми в аркадном стиле, где игроки соревнуются друг Совместная в серии нелепых и веселых испытаний. Игра предлагает соревноваться в формате настольной игры на виртуальной доске, где по очереди крутится колесо фортуны и выполняются выпавшие испытания, чтобы получить очки. Это отличный выбор для игры с друзьями или семьей благодаря своей юмористической атмосфере и кроссплатформенной поддержке. ",
       "trailer": "https://cdn.steamstatic.com/steam/apps/256688705/movie_max.mp4",
       "cardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/667800/library_600x900_2x.jpg",
       "mobileCardHeader": "https://cdn.akamai.steamstatic.com/steam/apps/667800/capsule_616x353.jpg"
@@ -1215,10 +1208,9 @@
         "Выживание",
         "Зомби",
         "Исследование",
-        "С другом",
+        "Совместная",
         "Симулятор",
-        "Приключение",
-        "Кооператив"
+        "Приключение"
       ],
       "screenshots": [
         "https://www.androidheadlines.com/wp-content/uploads/2019/07/Minecraft.jpg",
@@ -1233,6 +1225,235 @@
       "trailer": "",
       "cardHeader": "https://upload.wikimedia.org/wikipedia/ru/archive/f/f4/20221113131206%21Minecraft_Cover_Art.png",
       "mobileCardHeader": "https://preview.redd.it/2zs6alhs84y71.png?width=767&format=png&auto=webp&s=15fae2f6e601178e7aae481c70dff1d229bb8855"
+    },
+    {
+      "id": "c14h",
+      "name": "Fruit Ninja VR",
+      "new": "Новинка",
+      "russian": "Присутствует",
+      "control": ["Отклонение стиков", "Телепорт"],
+      "violation": [
+        "Жестокость",
+        "Зомби",
+        "Много крови"
+      ],
+      "age": "6+",
+      "difficulty": 1,
+      "tags": [
+        "Семейная",
+        "Аркада",
+        "Симулятор",
+        "Спорт",
+        "Реакция"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/ss_d5ee9f9322dc9edb45968452f2f60c593c1ec3ed.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/ss_23e5f0f6d47f2f3fb09ecedbca0cd9a7d23f56dd.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/ss_ad19d43f78a4ec4a69c6897637c2757a1a6d1be3.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/ss_6d7209c8896863d9a26fcb8ebf8cad50d88f061b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/ss_0490abcdcf05b8a9c4fc058517a21c59c871d849.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/ss_0c03f4351cdf8e45f6aa7ec825045488f6844a5a.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/ss_a906d584344a395a8663218f94c97fe9a8b56b01.jpg"
+      ],
+      "description": "Fruit Ninja VR — это полноценная адаптация знаменитой мобильной аркады для виртуальной реальности, разработанная Halfbrick Studios. Вместо того чтобы проводить пальцем по экрану, игроки физически взмахивают контроллерами, которые превращаются в острые катаны в виртуальном мире",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/486780/249814/dc377752f871ba80b6d79ba4909d3a60bdb96273/1751291565/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/library_600x900_2x.jpg?t=1700711378",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/486780/capsule_616x353.jpg?t=1700711378"
+    },
+    {
+      "id": "c1sg",
+      "name": "After the Fall®",
+      "new": "Новинка",
+      "russian": "Присутствует",
+      "control": ["Стоя", "Сидя"],
+      "violation": ["-"],
+      "age": "16+",
+      "difficulty": 3,
+      "tags": [
+        "Совместная",
+        "Шутер",
+        "Зомби",
+        "Совместная"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/751630/ss_183b756588307e023d442a63081616160086159c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/751630/ss_6fdda1946269f2b38663508927b296a982e60fa9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/751630/ss_136ae602216b3fabbd0f6210bf129470f2e6c70c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/751630/ss_e78f8b8c829d2661ced1d9d792f264eb220bf2ed.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/751630/ss_b2d0c8997051c0dc098a0a8bc8782c336381a84c.jpg"
+      ],
+      "description": "Это суровый кооперативный VR-шутер от авторов Arizona Sunshine, где вы с тремя друзьями пробиваетесь сквозь толпы ледяных зомби в заснеженном Лос-Анджелесе 80-х. Игра подкупает честным кроссплеем между ПК, PlayStation и Quest, реалистичной перезарядкой пушек вручную и бодрым темпом в духе Left 4 Dead.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/751630/498266/f328147c0edd176227006ad7ef1cf40af816e0ae/1750579022/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/751630/library_600x900_2x.jpg?t=1771848220",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/751630/capsule_616x353.jpg?t=1771848220"
+    },
+    {
+      "id": "c11q",
+      "name": "Batman™: Arkham VR",
+      "new": "Новинка",
+      "russian": "Есть субтитры",
+      "control": ["Стоя", "Сидя", "Отклонение стиков", "Телепорт"],
+      "violation": ["-"],
+      "age": "14+",
+      "difficulty": 3,
+      "tags": [
+        "Головоломка", "Приключение", "Симулятор"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/502820/ss_bfb0ab888210c6e9c946371ff860fbe098138334.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/502820/ss_41cb1e2beff3c71b54fc632a2a18e2f9621c29cc.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/502820/ss_d0e93ca434fc24841543b5030100be8d43bd9d39.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/502820/ss_9e9add450d9e159e89ced0267b9b74b92b490399.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/502820/ss_9e4e31da7eaadfe260f5bd355cb590680e3f16ac.jpg"
+      ],
+      "description": "Это короткое, но максимально атмосферное VR-погружение в роль Тёмного Рыцаря, где вместо кулачных боев упор сделан на детективную работу и разгадывание загадок Риддлера в Готэме. Вы примерите костюм Бэтмена, посетите поместье Уэйнов и Batcave, используя гаджеты вроде бэтаранга и сканера для расследования гибели своих союзников.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/502820/100351/bf5a7e07129a4512cfb832caeb071d57a7b854f9/1751294080/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/502820/library_600x900_2x.jpg?t=1773778770",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/502820/capsule_616x353.jpg?t=1773778770"
+    },
+    {
+      "id": "c1sg",
+      "name": "All-In-One Sports VR",
+      "new": "Новинка",
+      "russian": "Отсутствует",
+      "control": ["Стоя", "Сидя"],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 2,
+      "tags": [
+        "Симулятор", "Спорт", "Аркада", "Совместная"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1514840/ss_3502aad9de300f3ca469e255dad44c415fcdd17b.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1514840/ss_9f6acb3e5c37666ba4589170dd9b7ce6324b85bf.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1514840/ss_e7584c9b20ded9586564aa03a20e96cf63ed5069.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1514840/ss_eab95c30834d1a873295e81ee712315912b20d04.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1514840/ss_81c57879dfd93ea1adcef5a0edc78a04fde678f5.jpg"
+      ],
+      "description": "Это огромный сборник из более чем 10 популярных видов спорта (от бокса и стрельбы из лука до тенниса и боулинга) в одной VR-игре с приятной мультяшной графикой. Главная фишка — реалистичная физика движений и возможность соревноваться с друзьями или случайными игроками в реальном времени, не выходя из дома.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/1514840/735655/47e6e51af02aa3da11656a3751cec19bc4289cd7/1750697106/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1514840/2cabdbda25da9c730287ea58ee381ac14024948a/library_capsule_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1514840/249838bf5e3df69eedbe77a212265fe6a5f17cac/capsule_616x353.jpg?t=1765871340"
+    },
+    {
+      "id": "c2sg",
+      "name": "Blade and Sorcery",
+      "new": "Новинка",
+      "russian": "Отсутствует",
+      "control": ["Отклонение стиков", "Телепорт"],
+      "violation": ["Жестокость", "Много крови"],
+      "age": "16+",
+      "difficulty": 3,
+      "tags": [
+        "Драки", "Песочница", "Выживание", "Приключение", "Симулятор"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629730/ss_89659fd0322740ebd0b28d8d262429987a141886.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629730/ss_5d241a6573de42453029c4dbb06130e7d69734bc.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629730/ss_770e551e122f18aa83f9a2daaf169419b8e4d4d8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629730/ss_6ee6ee99ee263fe0b47d1032a2ffb79c04920f94.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629730/ss_c456350c35becb14063c53baa3e9d144d7e7f06e.jpg"
+      ],
+      "description": "Это культовая VR-песочница с акцентом на максимально реалистичную физику ближнего боя, где вы становитесь могучим воином или магом в фэнтезийном мире. В отличие от многих игр, здесь каждый удар учитывает вес оружия и точку соприкосновения, позволяя буквально фехтовать, карабкаться по стенам и комбинировать заклинания с клинками.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/629730/714490/8bc0527ca04f47a0eb7a61f8867eed061b13ed47/1750564127/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629730/0ca816f9f016d483c045d42f976c73ff56aa1bd7/library_600x900.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/629730/7ae616a347df2cfb47bfa2c53aada5537b40415e/capsule_616x353.jpg?t=1765901841"
+    },
+    {
+      "id": "c3sg",
+      "name": "Ancient Dungeon",
+      "new": "Новинка",
+      "russian": "Отсутствует",
+      "control": ["Отклонение стиков", "Телепорт"],
+      "violation": ["Жестокость"],
+      "age": "14+",
+      "difficulty": 3,
+      "tags": [
+        "Драки", "Песочница", "Выживание", "Приключение", "Совместная"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1125240/2705586558fbf241c31cde1ecedb0098ab9362d9/ss_2705586558fbf241c31cde1ecedb0098ab9362d9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1125240/537538d956f949dad998e0c718ea0b3bbebf655e/ss_537538d956f949dad998e0c718ea0b3bbebf655e.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1125240/d2408f40e50f9c390ccc675718c104110de015df/ss_d2408f40e50f9c390ccc675718c104110de015df.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1125240/39716d20be52ae849559924cd62b61e607c54b34/ss_39716d20be52ae849559924cd62b61e607c54b34.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1125240/b17b040de3046ed2ad54a2c5962f2ff43f773a6c/ss_b17b040de3046ed2ad54a2c5962f2ff43f773a6c.jpg"
+      ],
+      "description": "Это стильный VR-рогалик с пиксельной графикой и процедурно генерируемыми подземельями, где каждое прохождение уникально благодаря случайным ловушкам и врагам. Вы вооружены мечом и кинжалом, которые можно прокачивать с помощью магических артефактов, а упор сделан на физическое взаимодействие с окружением и поиск секретов в темных коридорах.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/1125240/55603014/5019712d1f7c1692724ec8932123167106d869df/1763941751/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1125240/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1125240/5fa1db741ab1d47c5c9e64b8b3085bd5e11c114d/capsule_616x353.jpg?t=1763944192"
+    },
+    {
+      "id": "c4sg",
+      "name": "Thief VR: Legacy of Shadow",
+      "new": "Новинка",
+      "russian": "Отсутствует",
+      "control": ["Отклонение стиков", "Телепорт"],
+      "violation": ["Жестокость"],
+      "age": "14+",
+      "difficulty": 3,
+      "tags": [
+        "Драки", "Песочница", "Приключение", "Головоломка", "Исследование", "Симулятор"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2800080/c00cccb1e31db9ba706b677a6866b3266ba53116/ss_c00cccb1e31db9ba706b677a6866b3266ba53116.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2800080/c2beecea6e8fdce469c4e07e9fd2e1d85ae079a4/ss_c2beecea6e8fdce469c4e07e9fd2e1d85ae079a4.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2800080/cb0b12bd6a05a4203be5dd2363da5a6cd7f8a210/ss_cb0b12bd6a05a4203be5dd2363da5a6cd7f8a210.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2800080/f590a99f8e876fb60b30658c5a0edd7fdde4adcc/ss_f590a99f8e876fb60b30658c5a0edd7fdde4adcc.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2800080/079d1edd846f64b5cd83a9ce0dac86fb9f5ffa40/ss_079d1edd846f64b5cd83a9ce0dac86fb9f5ffa40.jpg"
+      ],
+      "description": "Это VR-ремейк классического стелс-экшена Thief: The Dark Project, который переносит культовую атмосферу мрачного викторианского Готэма в виртуальную реальность с видом от первого лица. Вы играете за мастера-вора Гаррета, используя тени, лук с особыми стрелами и скрытность, чтобы обносить особняки и избегать стражи в полностью интерактивном окружении.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/2800080/755691603/f5e5f93f24fc696cb6973781fe275e5d6fcebb4b/1764255985/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2800080/cf27ddcf5854c22b840668c9446bb199642deda4/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2800080/b64dc2f24e10b079011fb12e4e043263252b7392/capsule_616x353.jpg?t=1770198880"
+    },
+    {
+      "id": "c5sg",
+      "name": "Pistol Whip",
+      "new": "Новинка",
+      "russian": "Отсутствует",
+      "control": ["Стоя", "Сидя"],
+      "violation": ["-"],
+      "age": "12+",
+      "difficulty": 2,
+      "tags": [
+        "Симулятор", "Аркада", "Шутер", "Музыка", "Реакция"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1079800/ss_6dfbda14cf63b67e2944ebd34f30281f41ef49ae.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1079800/ss_a282d06f5be9bfaf5a80f7a73047e5ed3563f2ab.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1079800/ss_8003a78c23c0bc180dd253fc9afda16c7e11ab5f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1079800/ss_a0d42e6ce34c043e151a13e6807aa2b36c311447.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1079800/ss_eed88810a7199dfdf5070cf12fd1d6c9135f7c5a.jpg"
+      ],
+      "description": "Это стильный ритм-шутер в духе «Джона Уика» и Superhot, где вы несетесь по уровням под бодрый электронный бит, отстреливая врагов и уворачиваясь от пуль всем телом. В отличие от других ритм-игр, здесь вы сами выбираете, когда стрелять, но попадание в такт музыке дает больше очков, превращая каждую перестрелку в эффектный боевой танец.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/1079800/522770/0fa223a32e69d15e241771c162598c766e2b28dc/1750613312/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1079800/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1079800/capsule_616x353.jpg?t=1729189081"
+    },
+    {
+      "id": "c6sg",
+      "name": "Surgeon Simulator: Experience Reality",
+      "new": "Новинка",
+      "russian": "Есть субтитры",
+      "control": ["Стоя", "Сидя", "Телепорт", "Отклонение стиков"],
+      "violation": ["Много крови", "Жестокость"],
+      "age": "16+",
+      "difficulty": 1,
+      "tags": [
+        "Симулятор", "Аркада", "Песочница"
+      ],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518920/ss_16565aad2345b4909f9c610255c865d27739feae.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518920/ss_397440c6c328b623511ae12fb990fd941a9a6f62.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518920/ss_55be6efac1670bf2b31737d43f3ac21525de81ad.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518920/ss_50cded69e8107bed7185dfc4ea7891bce701217f.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518920/ss_b95cc592ca089da3daf2e5d7dda406bc722aab1f.jpg"
+      ],
+      "description": "Это абсурдный и намеренно неуклюжий симулятор хирурга в VR, где вы в роли Найджела Берка проводите сложнейшие операции, борясь с непослушным управлением и физикой. Вместо стерильной точности здесь царит хаос: вы можете случайно пересадить сердце, используя мясницкий нож или дрель, при этом важно просто не дать пациенту истечь кровью до завершения процедуры.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/518920/88991/4572cd8e455535ae456cb879df86e455a0676694/1750542575/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518920/library_600x900_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/518920/capsule_616x353.jpg?t=1726238943"
     }
   ]
 }

@@ -76,6 +76,32 @@
       "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508"
     },
     {
+      "id": "1сbk",
+      "name": "Forza Horizon 6",
+      "new": "СКОРО",
+      "rdate": "19 мая",
+      "russian": "Есть субтитры",
+      "control": ["Автосимулятор"],
+      "violation": ["-"],
+      "age": "6+",
+      "difficulty": 3,
+      "tags": [],
+      "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/909356963f2a59f0ec92898c0cb9211999e25c14/ss_909356963f2a59f0ec92898c0cb9211999e25c14.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/a11a150869b7ae526cdbca33b7442db3f3ac88d8/ss_a11a150869b7ae526cdbca33b7442db3f3ac88d8.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/17b0e8d6a90e174e45f4c7438167d9d4e6ae8804/ss_17b0e8d6a90e174e45f4c7438167d9d4e6ae8804.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/c9354540f5a39270c918fa2eca1a92b28a7ee918/ss_c9354540f5a39270c918fa2eca1a92b28a7ee918.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/3b8ebc00e4a5a503984d2a523fc07a14612d03e9/ss_3b8ebc00e4a5a503984d2a523fc07a14612d03e9.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/4347ba202ef1cdaabaaccd830831afb8fdeeb9e4/ss_4347ba202ef1cdaabaaccd830831afb8fdeeb9e4.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/7775b5046e2fcc717f180577f482b2a5e3cbf0dc/ss_7775b5046e2fcc717f180577f482b2a5e3cbf0dc.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/f3634cbcfd6caa23b5b9e1b2e901d2cea63b6dc0/ss_f3634cbcfd6caa23b5b9e1b2e901d2cea63b6dc0.jpg"
+      ],
+      "description": "Forza Horizon 6 — это следующая часть культовой серии аркадных гонок в открытом мире от Playground Games, релиз которой запланирован на 19 мая 2026 года для Xbox Series X|S и PC (через Steam и Microsoft Store). Действие игры разворачивается в разнообразных и живописных локациях Японии.",
+      "trailer": "https://video.fastly.steamstatic.com/store_trailers/2483190/1169545394/8da9e6cb4283cb01c39f8870366ce363845db134/1769110721/microtrailer.mp4",
+      "cardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/711e39803402def82a90e1f31578c64744f952f3/library_capsule_2x.jpg",
+      "mobileCardHeader": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483190/e8e49b907c171a8036e9430eadf13306a085533d/capsule_616x353.jpg?t=1774979286"
+    },
+    {
       "id": "op77",
       "name": "Euro Truck Simulator 2",
       "russian": "Есть субтитры",
