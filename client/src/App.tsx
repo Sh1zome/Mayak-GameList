@@ -14,6 +14,8 @@ interface ZonaGame {
   trailer: string;
   cardHeader: string;
   mobileCardHeader: string;
+  new: string;
+  rdate: string;
 }
 
 interface Submode {
@@ -159,6 +161,13 @@ const App: React.FC = () => {
       game.russian === 'Есть субтитры' ? '#ffcc00' :
       '#ff4d4d';
 
+    const newColor = 
+      game.new === 'Новинка' ? '#d32525' :
+      game.new === 'СКОРО' ? '#d32525' :
+      '#d32525'
+
+    const dateColor = '#000000'
+
     const handleOpenGame = () => {
       setSelectedGame(game);
       window.scrollTo({ top: 0, behavior: 'auto' });
@@ -171,14 +180,34 @@ const App: React.FC = () => {
           alt={game.name}
           className="card-header"
         />
-        {isZonaOrAuto && (
+        {game.new != undefined && (
           <div
-            className="lang-indicator"
-            style={{ backgroundColor: color }}
+            className="new-indicator"
+            style={{ backgroundColor: newColor }}
             aria-hidden
           >
-            Русский: {game.russian}
+            {game.new}
           </div>
+        )}
+        {game.rdate != undefined && (
+          <div
+            className="rdate-indicator"
+            style={{ backgroundColor: dateColor }}
+            aria-hidden
+          >
+            Релиз {game.rdate}
+          </div>
+        )}
+        {isZonaOrAuto && (
+          <>
+            <div
+              className="lang-indicator"
+              style={{ backgroundColor: color }}
+              aria-hidden
+            >
+              Русский: {game.russian}
+            </div>
+          </>
         )}
         <h3>{game.name}</h3>
       </div>
@@ -283,6 +312,9 @@ const App: React.FC = () => {
               />
               <div className="game-description">{selectedGame.description}</div>
               <div className="game-info">
+                {selectedGame.new != undefined && (
+                  <p className='newString'><strong>{selectedGame.new} - {selectedGame.rdate != undefined && (selectedGame.rdate)}</strong></p>
+                )}
                 <p><strong>Русский язык:</strong> {selectedGame.russian}</p>
                 <p><strong>Управление:</strong> {selectedGame.control.join(', ')}</p>
                 <p><strong>Опасности:</strong> {selectedGame.violation.join(', ')}</p>

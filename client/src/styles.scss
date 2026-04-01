@@ -129,22 +129,47 @@ html, body {
 }
 
 /* плавная морф анимация для индикатора языка (точка->прямоугольник) */
-.game-card .lang-indicator {
-  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  overflow: hidden;
-  color: transparent; /* скрываем текст по умолчанию */
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 11px;
-  padding: 0;
+.game-card { 
 
-  h3 {
-    font-family: Actay, sans-serif;
+  .new-indicator {
+    margin-top: -8px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    vertical-align: middle;
+    padding-top: 4px;
+    font-size: 13px;
+  }
+
+  .rdate-indicator {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    vertical-align: middle;
+    padding-top: 4px;
+    font-size: 13px;
+  }
+
+  .lang-indicator {
+    transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    color: transparent; /* скрываем текст по умолчанию */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0;
+
+    h3 {
+      font-family: Actay, sans-serif;
+    }
+
   }
 }
 
@@ -354,6 +379,18 @@ html, body {
       strong {
         font-family: InterBold, sans-serif;
         color: #fff;
+      }
+      .newString {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #d32525;
+        border-radius: 12px;
+        height: 30px;
+        margin: 0;
+        strong {
+          line-height: 0;
+        }
       }
     }
   }
@@ -607,6 +644,9 @@ html, body {
       height: auto;
       // aspect-ratio: 16 / 9;
       object-fit: contain;
+    }
+    .new-indicator {
+
     }
     .lang-indicator {
       position: static;
