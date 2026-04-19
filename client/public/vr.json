@@ -846,8 +846,7 @@
         "Шутер",
         "Зомби",
         "Выживание",
-        "Приключение",
-        "Совместная"
+        "Приключение"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2153780/ss_277380ae47b81a75d0203e0681de3252369da401.jpg",
@@ -1180,7 +1179,8 @@
       "difficulty": 1,
       "tags": [
         "Семейная",
-        "Аркада"
+        "Аркада",
+        "Совместная"
       ],
       "screenshots": [
         "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/667800/ss_4362586535b2fedddc213aab4da7cba199398f88.jpg",
